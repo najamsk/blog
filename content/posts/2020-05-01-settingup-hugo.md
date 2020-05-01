@@ -1,6 +1,6 @@
 ---
 title: "Testing hugo with vercel"
-date: 2020-05-01T22:23:21+05:00
+date: 2020-04-30T22:23:21+05:00
 draft: true
 ---
 

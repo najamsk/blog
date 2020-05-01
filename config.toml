@@ -1,9 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Fuck it!"
-theme = "ananke"
+title = "Oh Boy!"
+#theme = "ananke"
 #theme = "terminal"
-
+theme = "hyde-hyde"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -31,6 +31,13 @@ theme = "ananke"
   # it's set to `true` by default
   # oneHeadingSize = false
 
+[params.social]
+	twitter = "najamsikander"
+	github = "najamsk"
+  facebook = "najams"
+  linkedin = "najamsikander"
+  instagram = "last_bubloo"
+
 [params.twitter]
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
@@ -41,8 +48,8 @@ theme = "ananke"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Najam Sikander Awan"
+    subtitle = "Just my recordings."
     owner = ""
     keywords = ""
     copyright = ""
