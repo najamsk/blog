@@ -1,5 +1,5 @@
 ---
-title: "Testing hugo with vercel"
+title: "Setting up blog with hugo & vercel"
 date: 2020-04-30T22:23:21+05:00
 draft: true
 ---
