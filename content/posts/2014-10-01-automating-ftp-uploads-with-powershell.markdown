@@ -12,31 +12,31 @@ In my last post I have shared hwo you can [archive a folder via powershell](http
 
 Please feel free to test following code and let me know your thoughts and improvements.
 
+{{< highlight ps1  "linenos=true,style=emacs">}}
 
-{% codeblock %}
+    #upload file using ftp
 
-#upload file using ftp
-function FtpUpload($file, $ftphost, $ftpuser, $ftppass){   
-   $Dir = Split-Path $file -Parent 
-   $filename = $file.Replace("$Dir\", "")
+    function FtpUpload ($file, $ftphost, $ftpuser, $ftppass) {
+    $Dir = Split-Path $file -Parent 
+    $filename = $file.Replace("$Dir\", "")
 
-   #ftp server 
-   $webclient = New-Object System.Net.WebClient 
-   $webclient.Credentials = New-Object System.Net.NetworkCredential($ftpuser,$ftppass) 
+    #ftp server 
+    $webclient = New-Object System.Net.WebClient 
+    $webclient.Credentials = New-Object System.Net.NetworkCredential($ftpuser,$ftppass) 
     
     #list every sql server trace file 
-    foreach($item in (dir $Dir $filename)){ 
+    foreach($item in (dir $Dir $filename)) { 
         "Uploading $item..." 
         $filepath = $ftphost+$item.Name
         $filepath
-        $uri = New-Object System.Uri($filepath)         
-        $webclient.UploadFile($uri, $item.FullName) 
-    } 
-}
+        $uri = New-Object System.Uri($filepath)
+        $webclient.UploadFile($uri, $item.FullName)
+        } 
+    }
 
-FtpUpload E:\projects\AspNet\MVC\newFoldernewFolder_2014_29_09.zip ftpHost ftpUser ftpPassword
-
-{% endcodeblock %}
+    FtpUpload E:\projects\AspNet\MVC\newFoldernewFolder_2014_29_09.zip ftpHost ftpUser ftpPassword
+    
+{{< / highlight >}}
 
 I have shared this script on [github](https://github.com/najamsk/powershellRepo) adjust it accroding to your needs and share your resutls. 
 
