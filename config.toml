@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.najamsk.now.sh"
 languageCode = "en-us"
 title = "Oh Boy!"
 #theme = "ananke"
