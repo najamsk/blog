@@ -4,6 +4,7 @@ title = "Najam Sikander Awan"
 #theme = "ananke"
 #theme = "terminal"
 theme = "hyde-hyde"
+disqusShortname = "hugo-blog-2"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -22,7 +23,7 @@ theme = "hyde-hyde"
 
   # center theme with default width
   centerTheme = false
-
+  showcomments = true
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
 
