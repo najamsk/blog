@@ -12,7 +12,7 @@ When your web application is running on web server and you don't have automatic 
 I have [Pscx](https://pscx.codeplex.com/) module installed on my PC and they have a nice little command Write-Zip available so I decided to write a custom powershell function that can create archive in zip formats for me. You can use windows task scheduler to invoke any powershell script so you can take advantage of this to have automatic daily or monthly backups.
 
 
-{{< highlight ps1  "linenos=true,hl_lines=8 15-17">}}
+{{< highlight ps1  "linenos=true,hl_lines=8 15-17, style=emacs">}}
 
 #$target is the folder you want to zip
 #$destinaion is the path where you want to create zip file

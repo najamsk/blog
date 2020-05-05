@@ -1,6 +1,6 @@
 baseURL = "https://blog.najamsk.now.sh"
 languageCode = "en-us"
-title = "Oh Boy!"
+title = "Najam Sikander Awan"
 #theme = "ananke"
 #theme = "terminal"
 theme = "hyde-hyde"
@@ -37,35 +37,19 @@ theme = "hyde-hyde"
   linkedin = "najamsikander"
   instagram = "last_bubloo"
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Najam Sikander Awan"
-    subtitle = "Just my recordings."
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "Terminal"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+#[[menu.main]]
+#    name = "Portfolio"
+#    identifier = "portfolio"
+#    weight = 200
+#    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

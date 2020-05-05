@@ -1,7 +1,11 @@
 ---
 title: "Setting up blog with hugo & vercel"
-date: 2020-04-30T22:23:21+05:00
-draft: true
+date: 2020-04-30 22:23
+layout: post
+comments: true
+categories: 
+- blog 
+- hugo
 ---
 
 ok so I am playing with hugo trying to get a blog up and running with it. I have following todo items in mind with my blog:
