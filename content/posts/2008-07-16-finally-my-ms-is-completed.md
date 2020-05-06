@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finally my Ms is completed
-date: 2008-07-16 08:13
+date: 2008-04-30T22:23:21+05:00
 comments: true
 categories:
 - education

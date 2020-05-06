@@ -1,7 +1,7 @@
 ---
 layout: post
 title: setting custome themes??
-date: 2005-11-21 22:04
+date: 2005-04-30T22:23:21+05:00
 comments: true
 categories:
 - wordpress

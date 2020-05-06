@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Fedora Core6 live-configuring internet by spoofing mac address
-date: 2007-02-11 13:29
+title: Fedora Core6 spoofing mac address
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - linux 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sql Data Srouce Control Deleting Data From Database
-date: 2008-07-17 05:23
+date: 2008-04-30T22:23:21+05:00
 comments: true
 categories:
 - asp.net

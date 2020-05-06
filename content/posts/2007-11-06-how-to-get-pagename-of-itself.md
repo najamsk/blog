@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get pagename of itself
-date: 2007-11-06 06:04
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - c#

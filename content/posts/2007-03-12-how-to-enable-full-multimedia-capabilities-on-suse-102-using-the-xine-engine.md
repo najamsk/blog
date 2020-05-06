@@ -1,11 +1,12 @@
 ---
 layout: post
 title: How to enable full multimedia capabilities on Suse 10.2 using the xine engine
-date: 2007-03-12 10:36
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - linux
 ---
+
 NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.
 
 The first step in resolving the multimedia issue is to setup additional YAST <a href="http://www.linuxquestions.org/questions/showthread.php?t=509097#" target="_top"><u><font size="2"></font><font face="Verdana, Arial, Helvetica, sans-serif"></font><font color="#0000ff">software</font></u></a> sources. The software repositories used in this howto, are <a href="http://packman.links2linux.org/" target="_blank">Packman</a> and <a href="http://linux01.gwdg.de/%7Epbleser/" target="_blank">Guru</a>. If possible, please use a mirror instead of the main download site to prevent overloading one download location. The mirrors for Packman are listed <a href="ftp://packman.links2linux.de/pub/packman/MIRRORS" target="_blank">here</a> and the ones for Guru are on the section titled "Mirrors" on this <a href="http://linux01.gwdg.de/%7Epbleser/" target="_blank">page</a>.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make custom spray for CS
-date: 2007-01-06 16:34
+date: 2006-04-30T22:23:21+05:00
 comments: true
 categories:
 - games

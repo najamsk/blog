@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Finally I Have My Own Domain
-date: 2007-09-30 19:47
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - hosting
 - news
 ---
+
 Hi guyz,
 
 After many days I am back and back for good :) recentlly i purchased a domain name and hosting package, so that i can have my own <a href="http://najamsikander.com" title="Visit my Website now.">website</a> and I want my settings persistent which was not possible in the case of free hosting like in my case my hosting provider remove the mysql database support.

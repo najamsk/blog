@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Read SMTP settings from asp.net web.config
-date: 2008-07-16 08:09
+date: 2008-04-30T22:23:21+05:00
 comments: true
 categories:
 - asp.net

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Vychat alternative for my suse 10.2 laptop
-date: 2007-03-12 10:43
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - linux
 ---
+
 <p style="margin-bottom:0;" align="left"><font size="3">After switching to suse what I badly missed is vychat a very popular LAN chat client </font></p>
 <p style="margin-bottom:0;" align="left"><font size="3">that support many useful functions such as file transfer and real time chat capabilities. All of my network users use windows and they communicate and file transfer with each other using vychat so after setting up suse I googled and end up with many vychat clones for unix and linux. Below is the list of some clones</font></p>
 

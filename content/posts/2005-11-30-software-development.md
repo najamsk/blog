@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software development
-date: 2005-11-30 20:15
+date: 2005-04-30T22:23:21+05:00
 comments: true
 categories:
 - development

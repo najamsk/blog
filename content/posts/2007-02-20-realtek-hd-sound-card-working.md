@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Realtek HD sound card working
-date: 2007-02-20 09:54
+date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
 - linux

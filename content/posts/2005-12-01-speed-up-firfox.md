@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speed Up Firfox
-date: 2005-12-01 00:12
+date: 2005-04-30T22:23:21+05:00
 comments: true
 categories:
 - firefox
