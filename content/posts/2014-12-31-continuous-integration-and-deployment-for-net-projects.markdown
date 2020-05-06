@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Continuous Integration & Deployment For .Net Projects"
-date: 2014-12-31T22:23:21+05:00
+date: 2014-04-30T22:23:21+05:00
 comments: true
 categories: 
 - DevOps

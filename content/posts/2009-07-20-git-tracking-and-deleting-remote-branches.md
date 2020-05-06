@@ -1,13 +1,14 @@
 ---
 layout: post
 title: git tracking and deleting remote branches
-date: 2009-07-20 09:11
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - git
 - source control
 - version control
 ---
+
 <strong>List the remote branches that exist for a repository you have cloned:</strong>
 
 	git remote show origin

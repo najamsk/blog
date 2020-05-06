@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finally I have my hands on linq 
-date: 2009-06-08 06:45
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - asp.net

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "fetch public tweets of any user using jQuery"
-date: 2013-05-03 21:11
+date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 
 - twitter

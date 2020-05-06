@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MVC3 Scaffolding Commands"
-date: 2013-05-03 21:06
+date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 
 - MVC

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Consuming asp.net webservice with jquery
-date: 2009-02-03 05:22
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - asp.net
@@ -11,6 +11,7 @@ categories:
 - c#
 - jQuery
 ---
+
 hi guys,
 
 Well I like to share one more experiment with you that is how to call a webservice from your javascript(jquery). For that again you need to have an asp.net ajax enable website.
@@ -22,34 +23,36 @@ By default asp.net web services use soap for communication scriptservice marker 
 Now lets defien the method in our webservice which we want to be accessable by our javascript code.
 
 {{< highlight csharp  "linenos=true,style=emacs">}}
-[WebMethod]
-public int AddingNumbers(int a, int b)
-{
-return a + b;
-}
+
+    [WebMethod]
+    public int AddingNumbers(int a, int b)
+    {
+    return a + b;
+    }
 {{< / highlight >}}
 
 That's it now lets move to client side code.
 
 {{< highlight csharp  "linenos=true,style=emacs">}}
-$(function(){
-$.ajax({
 
-type: "POST",
-url: "WebServices/MyWS.asmx/AddingNumbers",
-data: "{'a':'1','b':'2'}",
-contentType: "application/json; charset=utf-8",
-dataType: "json",
-success: function(msg) {
-// Do something interesting here.
-alert(msg);
-},
-error: function()
-{
-alert("Request can't made using ajax");
-}
-});//ajax ends here
-});// document ready ends here
+    $(function(){
+    $.ajax({
+
+    type: "POST",
+    url: "WebServices/MyWS.asmx/AddingNumbers",
+    data: "{'a':'1','b':'2'}",
+    contentType: "application/json; charset=utf-8",
+    dataType: "json",
+    success: function(msg) {
+    // Do something interesting here.
+    alert(msg);
+    },
+    error: function()
+    {
+    alert("Request can't made using ajax");
+    }
+    });//ajax ends here
+    });// document ready ends here
 {{< / highlight >}}
 
 In above javasrcipt code we are making an ajax post request we set  contentType to "application/json; charset=utf-8" and  dataType to "json" and passing a=1,b=2 as are data input parameters note that varriables name are same as verriables declared in webservice's function <strong>AddingNumbers </strong>input parameters.

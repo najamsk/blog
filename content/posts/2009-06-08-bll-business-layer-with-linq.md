@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BLL - Business layer with Linq
-date: 2009-06-08 07:04
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - linq
@@ -18,30 +18,30 @@ Problem arises if someone say only show selective columns then if you try to sel
 
 {{< highlight csharp  "linenos=true,style=emacs">}}
 
-public class ItemsDT
-{
-[System.ComponentModel.DataObjectMethod(System.ComponentModel.DataObjectMethodType.Select)]
-public static List&lt;Items&gt; AllItems()
-{
-DBDataContext db = new DBDataContext();
-return (from t in db.Items select t).ToList&lt;Items&gt;();
-}
+    public class ItemsDT
+    {
+    [System.ComponentModel.DataObjectMethod(System.ComponentModel.DataObjectMethodType.Select)]
+    public static List&lt;Items&gt; AllItems()
+    {
+    DBDataContext db = new DBDataContext();
+    return (from t in db.Items select t).ToList&lt;Items&gt;();
+    }
 
-public class ItemGridView
-{
-public int itemID { get; set; }
-public string itemName { get; set; }
-public string itemgroupName { get; set; }
-}
-[System.ComponentModel.DataObjectMethod(System.ComponentModel.DataObjectMethodType.Select)]
-public static List&lt;ItemGridView&gt; ListSubGroups_Admin()
-{
+    public class ItemGridView
+    {
+    public int itemID { get; set; }
+    public string itemName { get; set; }
+    public string itemgroupName { get; set; }
+    }
+    [System.ComponentModel.DataObjectMethod(System.ComponentModel.DataObjectMethodType.Select)]
+    public static List&lt;ItemGridView&gt; ListSubGroups_Admin()
+    {
 
-return (from t in AllItems() select new ItemGridView {
-itemID = t.sgID,
-itemName = t.sgName,
-itemgroupName = t.Group.gName
-}).ToList&lt;ItemGridView&gt;();
-}
+    return (from t in AllItems() select new ItemGridView {
+    itemID = t.sgID,
+    itemName = t.sgName,
+    itemgroupName = t.Group.gName
+    }).ToList&lt;ItemGridView&gt;();
+    }
 
 {{< / highlight >}}

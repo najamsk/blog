@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "empower your outlook with powershell"
-date: 2013-07-07 19:49
+date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 
 - powershell

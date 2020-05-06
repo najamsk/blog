@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get Running Jquery Version
-date: 2010-12-06 02:12
+date: 2010-04-30T22:23:21+05:00
 comments: true
 categories:
 - jQuery
@@ -9,6 +9,7 @@ categories:
 - tips
 - development
 ---
+
 Few weeks back I came across a page that has multiple jquery versions referenced in it and I had no idea which jquery version is actually running. So after little bit of googling I find following solution.
 <div>
 <pre>//Returns "1.3.1"

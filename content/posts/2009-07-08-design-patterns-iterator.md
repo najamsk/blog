@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design Patterns -- Iterator
-date: 2009-07-08 06:16
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - c#

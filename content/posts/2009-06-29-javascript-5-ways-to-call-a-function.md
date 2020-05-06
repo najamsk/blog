@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript, 5 ways to call a function
-date: 2009-06-29 00:29
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - javascript

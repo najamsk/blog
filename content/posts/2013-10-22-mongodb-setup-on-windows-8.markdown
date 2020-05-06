@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB Setup On Windows 8"
-date: 2013-10-22 13:15
+date: 2013-04-30T22:23:21+05:00
 comments: true
 categories:
 - MongoDB

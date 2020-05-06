@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Calling asp.net page methods with jquery
-date: 2009-02-03 04:23
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - asp.net

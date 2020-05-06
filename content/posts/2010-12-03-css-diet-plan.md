@@ -1,12 +1,13 @@
 ---
 layout: post
 title: CSS Diet Plan - first step to object oriented css
-date: 2010-12-03 01:59
+date: 2010-04-30T22:23:21+05:00
 comments: true
 categories:
 - css
 - tips
 ---
+
 I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
 
 If you are a vim user and your css file is loaded into vim in command mode enter following command

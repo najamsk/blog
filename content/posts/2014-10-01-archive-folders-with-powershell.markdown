@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Archive Folders With Powershell"
-date: 2014-10-01 12:09
+date: 2014-04-30T22:23:21+05:00
 comments: true
 categories: 
 - powershell
@@ -14,37 +14,37 @@ I have [Pscx](https://pscx.codeplex.com/) module installed on my PC and they hav
 
 {{< highlight ps1  "linenos=true,hl_lines=8 15-17, style=emacs">}}
 
-#$target is the folder you want to zip
-#$destinaion is the path where you want to create zip file
-#$outFile is the fileName of the generated zip file
-function CreateZip($target, $destination, $outFile)
-{
+    #$target is the folder you want to zip
+    #$destinaion is the path where you want to create zip file
+    #$outFile is the fileName of the generated zip file
+    function CreateZip($target, $destination, $outFile)
+    {
 
-#todays date
-$date = Get-Date -Format yyyy_dd_MM
+    #todays date
+    $date = Get-Date -Format yyyy_dd_MM
 
-#if output file is not mentioned try to get a file name based on target
-if ($outFile -eq $null -or $outFile -eq '')
-{
-    #$target = "E:\projects\AspNet\MVC\newFolder"
-    $a = Split-Path $target -Parent
-    $outFile = $target.Replace("$a\", "") + "_$date"  + ".zip"    
-}
+    #if output file is not mentioned try to get a file name based on target
+    if ($outFile -eq $null -or $outFile -eq '')
+    {
+        #$target = "E:\projects\AspNet\MVC\newFolder"
+        $a = Split-Path $target -Parent
+        $outFile = $target.Replace("$a\", "") + "_$date"  + ".zip"    
+    }
 
-#if desitnation is not mentioned create zip file in target folder
-if($destination -eq $null -or $destination -eq '')
-{
-    $destinationPath = $target + $outFile;
-}
-else
-{
-    $destinationPath = $destination + $outFile
-}
-Write-Zip $target -IncludeEmptyDirectories -OutputPath $destinationPath
-return $destinationPath
-}
-#this command will zip folder at E:\projects\AspNet\MVC\newFolder as myproject.zip at E:\Projects\AspNet\ 
-$bakfile = CreateZip E:\projects\AspNet\MVC\newFolder E:\Projects\AspNet\ myproject.zip
+    #if desitnation is not mentioned create zip file in target folder
+    if($destination -eq $null -or $destination -eq '')
+    {
+        $destinationPath = $target + $outFile;
+    }
+    else
+    {
+        $destinationPath = $destination + $outFile
+    }
+    Write-Zip $target -IncludeEmptyDirectories -OutputPath $destinationPath
+    return $destinationPath
+    }
+    #this command will zip folder at E:\projects\AspNet\MVC\newFolder as myproject.zip at E:\Projects\AspNet\ 
+    $bakfile = CreateZip E:\projects\AspNet\MVC\newFolder E:\Projects\AspNet\ myproject.zip
 {{< / highlight >}}
 
 I have shared this script on [github](https://github.com/najamsk/powershellRepo) adjust it accroding to your needs and share your resutls. 

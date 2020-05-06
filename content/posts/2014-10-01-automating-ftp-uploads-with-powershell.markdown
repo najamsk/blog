@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Automating Ftp Uploads With Powershell"
-date: 2014-10-01 12:45
+date: 2014-04-30T22:23:21+05:00
 comments: true
 categories: 
 - powershell

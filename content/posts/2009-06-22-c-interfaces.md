@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C# Interfaces
-date: 2009-06-22 03:37
+date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:
 - c#

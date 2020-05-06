@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to enable full multimedia capabilities on Suse 10.2 using the xine engine
+title: How to enable full multimedia capabilities on Suse 10.2
 date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:

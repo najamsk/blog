@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing jQuery code via YUI Test"
-date: 2013-05-03 21:22
+date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 
 - javascript
