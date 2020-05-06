@@ -15,38 +15,40 @@ Today I am sharing how to call asp.net web page code behind methods from client 
 
 Let us divide this into two parts the server side and client side on server side we have to write a function or page method.
 
-{% codeblock lang:c# %}
+{{< highlight csharp  "linenos=true,style=emacs">}}
 [WebMethod]
 public static string AddStrings(string a, string b)
 {
 return string.Format("my friend answer is {0}", a + b);
 }
-{% endcodeblock %}
+{{< / highlight >}}
 
-Note that we mark  our AddStrings function as WebMethod and its public and static this is the basic requirement for the funtion if you want to call it from javascript or jquery.
+Note that we mark our AddStrings function as WebMethod and its public and static this is the basic requirement for the funtion if you want to call it from javascript or jquery.
 
-Function itlsef is pretty simple all it does takes two strings join them and return the result.  Thats all we need to write for server side.
+Function itlsef is pretty simple all it does takes two strings join them and return the result. Thats all we need to write for server side.
 
-{% codeblock lang:js%}
-$(function(){
-$.ajax({
+{{< highlight js  "linenos=true,style=emacs">}}
 
-type: "POST",
-url: "Default.aspx/AddStrings",
-data: "{a:'najam ',b:'sikander'}",
-contentType: "application/json; charset=utf-8",
-dataType: "json",
-success: function(msg) {
-// Do something interesting here.
-alert(msg);
-},
-error: function()
-{
-alert("Request can't made using ajax");
-}
-});//ajax ends here
-});// document ready ends here
-{% endcodeblock %}
+    $(function(){
+    $.ajax({
+
+    type: "POST",
+    url: "Default.aspx/AddStrings",
+    data: "{a:'najam ',b:'sikander'}",
+    contentType: "application/json; charset=utf-8",
+    dataType: "json",
+    success: function(msg) {
+    // Do something interesting here.
+    alert(msg);
+    },
+    error: function()
+    {
+    alert("Request can't made using ajax");
+    }
+    });//ajax ends here
+    });// document ready ends here
+
+{{< / highlight >}}
 
 Client side has its own requirements first its better to use post request if you want any result back from server and then you should use json as communication medium and for that we need to set content type and data type as
 

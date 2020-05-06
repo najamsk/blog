@@ -10,12 +10,14 @@ categories:
 ---
 If you want to know only the directory name not the full path of the page that is currently displaying you can use this code
 
-{% codeblock lang:c#%}
+{{< highlight csharp  "linenos=true,style=emacs">}}
+
 string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
 System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
 string sRet = oInfo.Directory.Name.ToString();
 Response.Write("&lt;br&gt;&lt;br&gt;Directory name===" + sRet + "&lt;br&gt;&lt;br&gt;");
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 Happy Coding
 

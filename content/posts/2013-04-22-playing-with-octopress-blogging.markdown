@@ -22,9 +22,10 @@ I have read following pages form octopress documentation for configuration and b
 * To integrate twitter into your octopress blog sidebar read [put twitter back into sidebar](http://blog.jmac.org/blog/2013/03/30/putting-twitter-back-into-octopress/)
 To link your octopress setup with github you have to run following this will ask for your user/organization repository.
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	rake setup_github_pages
-{% endcodeblock %}
+{{< / highlight >}}
 
 Next you need to do following two commands to generate site from octopress and upload it to github repo.
 	rake generate

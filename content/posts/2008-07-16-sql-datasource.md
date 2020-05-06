@@ -10,7 +10,7 @@ categories:
 ---
 Hi in asp.net 2.0 this new datasource control has been added and i liked it alot and i used it on many places so i thought it would be nice if I share my knowledge with all my readers so first of all i would just like to show you how to retrieve some data from your database into C# code behind file.
 
-{% codeblock lang:c# %}
+{{< highlight csharp  "linenos=true,style=emacs">}}
 string userID = string.Empty;
 
 string UserName="najam";
@@ -25,7 +25,7 @@ if (dt.Rows.Count > 0)
 userID = dt.Rows[0][0].ToString();
 }
 
-{% endcodeblock %}
+{{< / highlight >}}
 
 Above code will return user id if username supplied. You will see no data adapters or command object.
 

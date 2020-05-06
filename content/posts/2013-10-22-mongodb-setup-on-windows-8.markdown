@@ -22,23 +22,29 @@ You can download MongoDb zip file from http://www.mongodb.org/downloads. I picke
 
 To install MongoDB using your command prompt navigate to the bin folder in my case it was on following path:
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	D:\mongodb\bin>
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 Then run following command to install it
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	D:\mongodb\bin>mongod --dbpath=D:\mongodb --logpath=D:\mongodb\log.txt --install
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 Then you can goto windows services and look for MongoDB service and simply start it. If you face any error during installation make sure you launch command prompt as administrator and log.txt file used in above command do exists in your hard drive.
 
 If for some reason you want to un-install the MongoDB service run following command in command prompt after stopping service from system services.
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	D:\mongodb\bin>mongod --remove
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 ##GUI to manage MongoDB
 
@@ -61,18 +67,22 @@ After completing v1.0 I have been asked to deploy our new web site on remote ser
 
 First to create a backup file of my local mongoDB database I run following command 
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	mongodump --db DBName
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 Above command will generate called DBName under MongoDB_Installation_Folder/bin/dump inside generated folder you will find *.bson* files for all the collections your database contains. I have uploaded this folder on remote server.
 
 
 Now to restore MongoDB on remote server I used mongorestore command syntax is simple you need to supply foldername/dbname to restore
 
-{% codeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
 	mongorestore dump/DBName
-{% endcodeblock %}
+
+{{< / highlight >}}
 
 Once restore is completed successfully you can check your database on remote using RoboMongo.
 

@@ -12,7 +12,8 @@ Hi Guys,
 
 I am reading more on design patterns from this  <a title="Read This" href="http://msdn.microsoft.com/en-us/magazine/cc188707.aspx" target="_blank">article</a> after little theory session here is working code. Key point was all of the collection classes in the System.Collections namespace, as well as arrays, implement IEnumerable and can therefore be iterated over.
 
-{% codeblock lang:c#%}
+{{< highlight csharp  "linenos=true,style=emacs">}}
+
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
@@ -38,4 +39,5 @@ I am reading more on design patterns from this  <a title="Read This" href="http
 	}
 
 	}
-{% endcodeblock %}
+
+{{< / highlight >}}

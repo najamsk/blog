@@ -21,17 +21,17 @@ By default asp.net web services use soap for communication scriptservice marker 
 
 Now lets defien the method in our webservice which we want to be accessable by our javascript code.
 
-{% codeblock lang:c# %}
+{{< highlight csharp  "linenos=true,style=emacs">}}
 [WebMethod]
 public int AddingNumbers(int a, int b)
 {
 return a + b;
 }
-{% endcodeblock %}
+{{< / highlight >}}
 
 That's it now lets move to client side code.
 
-{% codeblock lang:c#%}
+{{< highlight csharp  "linenos=true,style=emacs">}}
 $(function(){
 $.ajax({
 
@@ -50,7 +50,7 @@ alert("Request can't made using ajax");
 }
 });//ajax ends here
 });// document ready ends here
-{% endcodeblock %}
+{{< / highlight >}}
 
 In above javasrcipt code we are making an ajax post request we set  contentType to "application/json; charset=utf-8" and  dataType to "json" and passing a=1,b=2 as are data input parameters note that varriables name are same as verriables declared in webservice's function <strong>AddingNumbers </strong>input parameters.
 

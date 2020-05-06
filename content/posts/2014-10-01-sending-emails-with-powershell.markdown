@@ -17,17 +17,19 @@ I will open source on [github](https://github.com/najamsk/powershellRepo) many o
 
 
 
-{% codeblock %}
-$EmailFrom = "from@mail.com"
-$EmailTo = "to@mail.com" 
-$Subject = "emailing powershell report" 
-$Body = "this should work on remove server as well. test email" 
-$SMTPServer = "smtp.gmail.com" 
-$SMTPClient = New-Object Net.Mail.SmtpClient($SmtpServer, 587) 
-$SMTPClient.EnableSsl = $true 
-$SMTPClient.Credentials = New-Object System.Net.NetworkCredential("gmailUser", "gmailPasswor"); 
-$SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)
-{% endcodeblock %}
+{{< highlight ps1  "linenos=true,style=emacs">}}
+
+    $EmailFrom = "from@mail.com"
+    $EmailTo = "to@mail.com" 
+    $Subject = "emailing powershell report" 
+    $Body = "this should work on remove server as well. test email" 
+    $SMTPServer = "smtp.gmail.com" 
+    $SMTPClient = New-Object Net.Mail.SmtpClient($SmtpServer, 587) 
+    $SMTPClient.EnableSsl = $true 
+    $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("gmailUser", "gmailPasswor"); 
+    $SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)
+
+{{< / highlight >}}
 
 Hope this will help someone, feel free to improve this script and than share it with me you can file bugs on github. 
 
