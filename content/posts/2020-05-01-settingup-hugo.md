@@ -1,6 +1,6 @@
 ---
 title: "Setting up blog with hugo & vercel"
-date: 2020-04-30 22:23
+date: 2020-05-01 22:23
 layout: post
 comments: true
 categories: 
