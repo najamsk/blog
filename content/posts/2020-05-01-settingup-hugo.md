@@ -8,7 +8,7 @@ categories:
 - hugo
 ---
 
-I am playing with Hugo trying to get a blog up and running with it. I have following TODO items in mind with my blog:
+I am playing with [Hugo](https://gohugo.io/) trying to get a blog up and running with it. I have following TODO items in mind with my blog:
 
 * get a clean theme
 * get code preview
