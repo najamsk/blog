@@ -3,12 +3,16 @@ languageCode = "en-us"
 title = "Najam Sikander Awan"
 #theme = "ananke"
 #theme = "terminal"
-theme = "hyde-hyde"
+theme = "hyde-najam"
 disqusShortname = "hugo-blog-2"
+
+highlight = false
 
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
+  highlightjs = true
+  highlightjsstyle = "github"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
