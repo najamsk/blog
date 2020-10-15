@@ -22,4 +22,6 @@ Skaia launcher supports creating profile that allows you to use different versio
 
 ![screenshot](https://i.imgur.com/XbuCK2l.png)
 
-I don't know what else to share. Just creating this post as mini documentation.
+I don't know what else to share. Just creating this post as mini documentation. Need to connect with forestry.
+
+hyde theme is creating issue.
