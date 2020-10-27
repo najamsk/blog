@@ -1,60 +1,32 @@
 baseURL = "https://blog.najamsk.now.sh"
-languageCode = "en-us"
-title = "Najam Sikander Awan"
-#theme = "ananke"
-#theme = "terminal"
-theme = "hyde-najam"
 disqusShortname = "hugo-blog-2"
-
 highlight = false
-
+languageCode = "en-us"
+theme = "hyde-najam"
+title = "Najam Sikander Awan"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  highlightjs = true
-  highlightjsstyle = "github"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-
-  # show selector to switch language
-  showLanguageSelector = false
-
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = false
-  showcomments = true
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
-
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
-
+centerTheme = false
+contentTypeName = "posts"
+fullWidthTheme = false
+highlightjs = true
+highlightjsstyle = "github"
+showLanguageSelector = false
+showMenuItems = 2
+showcomments = true
+themeColor = "orange"
 [params.social]
-	twitter = "najamsikander"
-	github = "najamsk"
-  facebook = "najams"
-  linkedin = "najamsikander"
-  instagram = "last_bubloo"
-
-## Main Menu
-[[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-#[[menu.main]]
-#    name = "Portfolio"
-#    identifier = "portfolio"
-#    weight = 200
-#    url = "/portfolio/"
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+facebook = "najams"
+github = "najamsk"
+instagram = "last_bubloo"
+linkedin = "najamsikander"
+twitter = "najamsikander"
