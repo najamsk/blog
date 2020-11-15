@@ -39,11 +39,11 @@ Actually using this code for code blocks.
 
 {{< highlight toml  "linenos=true, style=emacs">}}
 
-    \{{< highlight toml  "linenos=true, style=emacs">}}
+    {{< highlight toml  "linenos=true, style=emacs">}}
     
     highlightjs = true  
     highlightjsstyle = "github"
-    \{{< / highlight >}}
+    {{< / highlight >}}
 
 {{< / highlight >}}
 
