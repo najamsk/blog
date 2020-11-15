@@ -34,11 +34,6 @@ config.toml \[params\]
 
 {{< / highlight >}}
 
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
-highlightjs = true  
-highlightjsstyle = "github"
-{{< / highlight >}}
-
 ## Comments
 
 Using for comment management it's fairly simple once you figured out what part you need to modify in config file. [Read more](https://gohugo.io/content-management/comments/)
