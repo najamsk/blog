@@ -35,6 +35,14 @@ Hugo has builtin support for code snippet. So I change every blog post to match 
 
 {{< / highlight >}}
 
+Actually using this code for code blocks.
+
+	{{< highlight toml  "linenos=true, style=emacs">}}
+    [params]
+    highlightjs = true  
+    highlightjsstyle = "github"
+	{{< / highlight >}}
+
 ## Comments
 
 Using for comment management it's fairly simple once you figured out what part you need to modify in config file. [Read more](https://gohugo.io/content-management/comments/)
