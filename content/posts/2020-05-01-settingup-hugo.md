@@ -29,8 +29,8 @@ config.toml \[params\]
 
 {{< highlight toml  "linenos=true, style=emacs">}}
 
-  highlightjs = true  
-  highlightjsstyle = "github"
+    highlightjs = true  
+    highlightjsstyle = "github"
 
 {{< / highlight >}}
 
