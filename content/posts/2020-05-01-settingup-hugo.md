@@ -25,10 +25,11 @@ I end up choosing [hyde-hyde](https://themes.gohugo.io/hyde-hyde/) due to it's s
 
 Hugo has builtin support for code snippet. So I change every blog post to match what Hugo needs. [Documentation](https://gohugo.io/content-management/syntax-highlighting/) provide few styles to enable code snippet support for different languages.
 
-    config.toml [params]
+    config.toml
 
 {{< highlight toml  "linenos=true, style=emacs">}}
 
+    [params]
     highlightjs = true  
     highlightjsstyle = "github"
 
