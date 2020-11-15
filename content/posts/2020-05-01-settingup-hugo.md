@@ -27,14 +27,15 @@ Hugo has builtin support for code snippet. So I change every blog post to match 
 
 config.toml \[params\]
 
+{{< highlight toml  "linenos=true, style=emacs">}}
 
-<pre><code class="html">
-highlightjs = true   
+highlightjs = true  
 highlightjsstyle = "github"
-</code></pre>
+
+{{< / highlight >}}
 
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
-highlightjs = true   
+highlightjs = true  
 highlightjsstyle = "github"
 {{< / highlight >}}
 
