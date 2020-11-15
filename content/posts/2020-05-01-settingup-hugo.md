@@ -37,11 +37,15 @@ Hugo has builtin support for code snippet. So I change every blog post to match 
 
 Actually using this code for code blocks.
 
+{{< highlight toml  "linenos=true, style=emacs">}}
+
     \{{< highlight toml  "linenos=true, style=emacs">}}
     
     highlightjs = true  
     highlightjsstyle = "github"
     \{{< / highlight >}}
+
+{{< / highlight >}}
 
 ## Comments
 
