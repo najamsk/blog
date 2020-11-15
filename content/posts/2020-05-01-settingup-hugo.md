@@ -25,6 +25,15 @@ I end up choosing [hyde-hyde](https://themes.gohugo.io/hyde-hyde/) due to it's s
 
 Hugo has builtin support for code snippet. So I change every blog post to match what Hugo needs. [Documentation](https://gohugo.io/content-management/syntax-highlighting/) provide few styles to enable code snippet support for different languages.
 
+config.toml \[params\]
+
+
+
+{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+highlightjs = true   
+highlightjsstyle = "github"
+{{< / highlight >}}
+
 ## Comments
 
 Using for comment management it's fairly simple once you figured out what part you need to modify in config file. [Read more](https://gohugo.io/content-management/comments/)
