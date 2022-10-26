@@ -3,7 +3,7 @@ disqusShortname = "hugo-blog-2"
 highlight = false
 languageCode = "en-us"
 theme = "hyde-najam"
-title = "Najam Awan"
+title = "Najam Sikander Awan"
 [[menu.main]]
 identifier = "about"
 name = "About"
