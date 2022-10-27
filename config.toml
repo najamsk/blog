@@ -5,6 +5,11 @@ languageCode = "en-us"
 theme = "hyde-najam"
 title = "Najam Sikander Awan"
 [[menu.main]]
+identifier = "mycv"
+name = "My CV"
+url = "/uploads/cv.pdf"
+weight = 2
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
