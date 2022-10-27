@@ -8,7 +8,7 @@ title = "Najam Sikander Awan"
 identifier = "mycv"
 name = "My CV"
 url = "/uploads/cv.pdf"
-weight = 2
+weight = 3
 [[menu.main]]
 identifier = "about"
 name = "About"
