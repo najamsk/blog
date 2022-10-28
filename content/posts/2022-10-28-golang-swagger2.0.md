@@ -3,7 +3,14 @@ title: Golang Swagger2.0
 date: 2022-10-28T20:58:26.000+03:00
 
 ---
-ok it gonna work like this
+* Make a small gorila mux api two endpoints with GET and POST
+* Add the comments annotations to source code, meaning handlers
+* Download swagger-ui from the go-swagger repo
+* Serve the swagger-ui folder as a fileserver.
+* Embed the swagger-ui inside output binary
+* Deploy this small api server to GCP
+* Host on AWS
+* Maybe deploy it using kubernetes
 
 Just trying to add github gist to hugo cms.
 
