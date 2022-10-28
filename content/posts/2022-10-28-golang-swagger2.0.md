@@ -14,6 +14,4 @@ This post serve as small documentation to add swagger and its ui to your existin
 * Host on AWS
 * Maybe deploy it using kubernetes
 
-Just trying to add github gist to hugo cms.
-
 {{< gist najamsk 3affd02f2bc8abb05171b64861323631 >}}
