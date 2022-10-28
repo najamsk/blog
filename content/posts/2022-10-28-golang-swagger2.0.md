@@ -14,4 +14,4 @@ date: 2022-10-28T20:58:26.000+03:00
 
 Just trying to add github gist to hugo cms.
 
-{{< gist najamsk 2749364278e09cf546f2f868d0615c49 >}}
+{{< gist najamsk 3affd02f2bc8abb05171b64861323631 >}}
