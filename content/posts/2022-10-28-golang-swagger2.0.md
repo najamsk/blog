@@ -4,7 +4,7 @@ date: 2022-10-28T20:58:26.000+03:00
 draft: true
 
 ---
-This post is currently in progress.
+This post is currently in progress. Please don't read, you shall not pass. 🧙🏻‍♂️
 
 This post serve as small documentation to add swagger and its ui to your existing golang API. I will be using go swagger 2.0 library or framework to do so which basically add comments on your existing code to generate swagger documentation.
 
