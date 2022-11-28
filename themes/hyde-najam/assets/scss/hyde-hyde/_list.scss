@@ -4,6 +4,10 @@
 	font-size: $section__title-font-size;
 }
 
+.content .posts li.draft{
+  display:none;
+}
+
 .post-list__item {
 	margin-bottom: 3em;
 }
