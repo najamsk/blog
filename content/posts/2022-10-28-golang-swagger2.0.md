@@ -4,8 +4,10 @@ date: 2022-10-28T20:58:26.000+03:00
 layout: post
 comments: true
 categories:
-- Linux
-- Gaming
+- Go
+- Swagger
+- API
+- Dev
 
 ---
 This post is currently in progress. You shall not pass. 🧙🏻‍♂️
