@@ -1,5 +1,5 @@
 {{ range . }}
-<li>
+<li {{if .Draft}}class="draft"{{end}}>
   <span class="list__title--small">
     <a href="{{ .RelPermalink }}" {{if .Draft}}class="draft"{{end}}>{{ .Title }}</a>
       {{if not .Date.IsZero}}
