@@ -37,7 +37,7 @@ Hugo has builtin support for code snippet. So I change every blog post to match 
 
 ## Web CMS
 
-I am using [https://app.forestry.io/](https://app.forestry.io/ "https://app.forestry.io/") to edit my posts online and each edit in turn trigger the build to generate static site and deploy it on vercel.
+I am using <a href="https://app.forestry.io/ " target="_blank">forestry.io</a> to edit my posts online and each edit in turn trigger the build to generate static site and deploy it on vercel.
 
 ## Comments
 
