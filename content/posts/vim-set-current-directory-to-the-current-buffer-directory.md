@@ -6,8 +6,7 @@ layout = ""
 title = "Vim set current directory to the current buffer directory"
 
 +++
-You can use following simple command that I always seems to forget for switching current directory to the current vim buffer directory. Its useful if you are trying to do search in your current project and you don't have project searc based on git root or you current directory is not tracked by git.
-
+Sometimes, I tend to forget this simple command, which can be handy for quickly switching to the directory of the current buffer in Vim. This can be useful when searching for files within your project, especially if your project search is not based on the git root or if your current directory is not being tracked by git.
 
 {{< highlight toml  "linenos=true, style=emacs">}}
 
