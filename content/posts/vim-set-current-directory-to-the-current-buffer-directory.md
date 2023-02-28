@@ -2,7 +2,6 @@
 categories = ["vim"]
 comments = true
 date = 2023-02-27T22:00:00Z
-draft = true
 layout = ""
 title = "Vim set current directory to the current buffer directory"
 
