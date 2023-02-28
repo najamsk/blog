@@ -17,3 +17,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- content/posts/vim-set-current-directory-to-the-current-buffer-directory.md
