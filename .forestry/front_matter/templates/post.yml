@@ -19,3 +19,4 @@ fields:
   label: categories
 pages:
 - content/posts/vim-set-current-directory-to-the-current-buffer-directory.md
+- content/posts/vim-snake-case-to-camel-case.md
