@@ -10,8 +10,15 @@ I am refactoring some legacy code and one issue I faced is to change variable na
 
 Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.
 
+{{< highlight toml  "linenos=true, style=emacs">}}
     :1,$s/_\([a-z]\)/\u\1/g
+    
+{{< / highlight >}}    
 
 If you want to change case on selected lines you can use following.
 
+
+{{< highlight toml  "linenos=true, style=emacs">}}
     :3,6s/_\([a-z]\)/\u\1/g
+    
+{{< / highlight >}}
