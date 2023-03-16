@@ -6,7 +6,7 @@ layout = ""
 title = "vim snake case to camel case"
 
 +++
-I am refactoring some legacy code and one issue I faced is to change variable naming convention. There is no fix scheme and in many places found snake case (first_name) wanted to change things in a large file but limited to certain lines.
+As I'm working on refactoring some legacy code, I've encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I've noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file. 
 
 Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.
 
