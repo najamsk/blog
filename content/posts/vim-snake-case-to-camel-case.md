@@ -13,7 +13,7 @@ Following will looks for any places with an underscore followed by a lower case 
 {{< highlight toml  "linenos=true, style=emacs">}}
 
     :1,$s/_\([a-z]\)/\u\1/g
-    
+
 {{< / highlight >}}    
 
 If you want to change case on selected lines you can use following.
@@ -22,5 +22,5 @@ If you want to change case on selected lines you can use following.
 {{< highlight toml  "linenos=true, style=emacs">}}
 
     :3,6s/_\([a-z]\)/\u\1/g
-    
+
 {{< / highlight >}}
