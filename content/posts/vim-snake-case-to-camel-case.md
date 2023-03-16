@@ -1,7 +1,7 @@
 +++
 categories = ["vim"]
-comments = false
-date = ""
+comments = true
+date = 2023-03-15T22:00:00Z
 layout = ""
 title = "vim snake case to camel case"
 
