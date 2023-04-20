@@ -10,7 +10,7 @@ Following will looks convert golang struct to a 99design graphql schema type.
 
 
 
-{{< highlight toml  "linenos=true, style=emacs">}}
+{{< highlight toml  "linenos=true, style=golang">}}
 
     type Post struct {
       UserID int    `json:"userId"`
