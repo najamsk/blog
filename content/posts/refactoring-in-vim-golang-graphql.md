@@ -33,3 +33,17 @@ If you want to change case on selected lines you can use following.
 
 
 Above regular expression will remove the json tags from the line 3 to 6.
+
+{{< highlight golang  "linenos=true, style=emacs">}}
+
+    type Post struct {
+      UserID int    
+      ID     int    
+      Title  string 
+      Body   string 
+	}
+
+{{< / highlight >}}
+
+
+Next two steps are field name to camel case and data type to be capitalize.
