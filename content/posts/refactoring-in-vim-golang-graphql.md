@@ -6,7 +6,7 @@ layout = ""
 title = "refactoring in vim - golang & graphql"
 
 +++
-Following will looks convert golang struct to a 99design graphql schema type.
+Following will convert golang struct to a 99design graphql schema type.
 
 
 
