@@ -1,0 +1,12 @@
++++
+categories = ["vim"]
+comments = true
+date = 2023-06-09T22:00:00Z
+layout = ""
+title = "VIM Usage"
+
++++
+
+
+ctrl+0 and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward
+if it's not working then I found you can use ctrl+shift+i.
