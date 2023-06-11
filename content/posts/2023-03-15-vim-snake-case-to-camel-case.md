@@ -11,7 +11,7 @@ As I'm working on refactoring some legacy code, I've encountered the challenge o
 
 Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.
 
-{{< highlight toml  "linenos=true, style=emacs">}}
+{{< highlight bash "linenos=table,hl_lines=8 15-17,linenostart=1" >}}
 
     :1,$s/_\([a-z]\)/\u\1/g
 
@@ -20,7 +20,8 @@ Following will looks for any places with an underscore followed by a lower case 
 
 If you want to change case on selected lines you can use following.
 
-{{< highlight toml  "linenos=true, style=emacs">}}
+{{< highlight bash "linenos=table,hl_lines=8 15-17,linenostart=1" >}}
+
 
     :3,6s/_\([a-z]\)/\u\1/g
 
