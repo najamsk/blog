@@ -25,3 +25,6 @@ You can deploy your new Hugo project with a single command from your terminal us
 ```shell
 $ now
 ```
+
+### TODO:
+- remove tina cms thing or fix the css style in production
