@@ -1,3 +1,7 @@
+---
+_template: post
+---
+
 +++
 categories = ["commands"]
 comments = false

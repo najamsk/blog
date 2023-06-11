@@ -1,3 +1,7 @@
+---
+_template: post
+---
+
 +++
 categories = ["golang", "graphql", "vim"]
 comments = true
