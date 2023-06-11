@@ -148,6 +148,116 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
+          <a href="/posts/2023-05-09-vim-usage/" >Vim Usage</a>
+        </span>
+        <span class="item__date">
+          Jun 09, 2023
+        </span>
+        <span >
+        
+        ctrl+0 and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward. If it&rsquo;s not working then I found you can use ctrl+shift+i.
+Will keep updating this post with other vim related things that i want to track and share.
+Golang Sometimes if you install golang package using go get in terminal outside vim editor. It&rsquo;s still showing import error.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/2023-05-09-vim-usage/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2023-04-19-refactoring-in-vim-golang-graphql/" >refactoring in vim - golang &amp; graphql</a>
+        </span>
+        <span class="item__date">
+          Apr 19, 2023
+        </span>
+        <span >
+        
+        Following will convert golang struct to a 99design graphql schema type.
+1 2 3 4 5 6 type Post struct { UserID int `json:&#34;userId&#34;` ID int `json:&#34;id&#34;` Title string `json:&#34;title&#34;` Body string `json:&#34;body&#34;` } If you want to change case on selected lines you can use following.
+1 :3,6s/`.*/ Above regular expression will remove the json tags from the line 3 to 6.
+1 2 3 4 5 6 type Post struct { UserID int ID int Title string Body string } Next two steps are field name to camel case and data type to be capitalize.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/2023-04-19-refactoring-in-vim-golang-graphql/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2023-03-21-check-which-process-is-using-specific-port/" >Check which process is using specific port</a>
+        </span>
+        <span class="item__date">
+          Mar 21, 2023
+        </span>
+        <span >
+        
+        This is a simple command to find out about process id binded with a port. Maybe you can kil the process.
+1 lsof -i tcp:1313 
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2023-03-15-vim-snake-case-to-camel-case/" >change snake case to camel case using VIM</a>
+        </span>
+        <span class="item__date">
+          Mar 15, 2023
+        </span>
+        <span >
+        
+        As I&rsquo;m working on refactoring some legacy code, I&rsquo;ve encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I&rsquo;ve noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file.
+Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.
+1 :1,$s/_\([a-z]\)/\u\1/g If you want to change case on selected lines you can use following.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/2023-03-15-vim-snake-case-to-camel-case/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/2023-02-27-vim-set-current-directory-to-the-current-buffer-directory/" >Vim set current directory to the current buffer directory</a>
+        </span>
+        <span class="item__date">
+          Feb 27, 2023
+        </span>
+        <span >
+        
+        Sometimes, I tend to forget this simple command, which can be handy for quickly switching to the directory of the current buffer in Vim. This can be useful when searching for files within your project, especially if your project search is not based on the git root or if your current directory is not being tracked by git.
+1 :cd %:p:h 
+        
+        </span>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
           <a href="/posts/2020-06-08-minecraftsetup/" >Running Minecraft On Linux</a>
         </span>
         <span class="item__date">
@@ -248,119 +358,6 @@ Please feel free to test following code and let me know your thoughts and improv
         </span>
         
           ... <a class="read-more-symbol" href="/posts/2014-12-31-continuous-integration-and-deployment-for-net-projects/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2014-10-01-sending-emails-with-powershell/" >Sending Emails With Powershell</a>
-        </span>
-        <span class="item__date">
-          Apr 30, 2014
-        </span>
-        <span >
-        
-        I am managing different servers and each of them have different responsibilities.
-I am learning powershell and trying to build lego blocks that will eventually become recipes for automating tasks on different servers. One important block is email report for that if you don&rsquo;t have smtp configured on server you can use following powershell script with gmail SMTP information.
-I will open source on github many of the small powershell scripts that you can make use of to build something cool.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/2014-10-01-sending-emails-with-powershell/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2013-07-07-empower-your-outlook-with-powershell/" >empower your outlook with powershell</a>
-        </span>
-        <span class="item__date">
-          Apr 30, 2013
-        </span>
-        <span >
-        
-        I needed to genrate an email log that contains every email from our clients these normally stored in their seprate folder. One way was to copy and paste email headers and body into a word document. Second was to use powershell and got all the emails using some script.
-After playing a little with powershell and google few of its basic I have completed my task with powershell.
-{% gist 5944505 %}
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/2013-07-07-empower-your-outlook-with-powershell/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/" >fetch public tweets of any user using jQuery</a>
-        </span>
-        <span class="item__date">
-          Apr 30, 2013
-        </span>
-        <span >
-        
-        I have been asked by many friends how to load tweets of any user using jQuery I have put some time and found two ways to do that using jQuery.
-Twitter Timeline API following is the code to get public tweets of any user using javascript and twitter timeline api
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 $.ajax({ type : &#39;GET&#39;, dataType : &#39;jsonp&#39;, url : &#39;http://api.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2013-10-22-mongodb-setup-on-windows-8/" >MongoDB Setup On Windows 8</a>
-        </span>
-        <span class="item__date">
-          Apr 30, 2013
-        </span>
-        <span >
-        
-        I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.
-In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&rsquo;t use it in any project until now.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/2013-10-22-mongodb-setup-on-windows-8/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/2013-05-03-mvc3-scafolding-commands/" >MVC3 Scaffolding Commands</a>
-        </span>
-        <span class="item__date">
-          Apr 30, 2013
-        </span>
-        <span >
-        
-        I had a freelance project that I have decided to do in MVC3 and to found following scaffolding commands very useful to get my Context, repository, controller, controller and views in PM console inside visual studio
-1 2 3 4 5 Scaffold DbContext -Project CRS.Domain Service Concrete.CRSContext Scaffold Repository -ModelType Attachment -DbContextType BigApp.Domain.Concrete.BigAppContext -force Scaffold Controller -ModelType BigApp.Domain.Entities.Project -ControllerName Projects -DbContextType BigApp.Domain.Concrete.BigAppContext -Repository -NoChildItems -Force Scaffold Controller -ModelType CRS.Domain.Entities.Service -ControllerName Services -DbContextType CRS.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/2013-05-03-mvc3-scafolding-commands/">➦</a>
         
         </div>
         

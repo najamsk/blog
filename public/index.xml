@@ -6,7 +6,61 @@
     <description>Recent content on Najam Sikander Awan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2020 15:42:02 +0500</lastBuildDate><atom:link href="https://najamawans.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://najamawans.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim Usage</title>
+      <link>https://najamawans.com/posts/2023-05-09-vim-usage/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2023-05-09-vim-usage/</guid>
+      <description>ctrl+0 and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward. If it&amp;rsquo;s not working then I found you can use ctrl+shift+i.
+Will keep updating this post with other vim related things that i want to track and share.
+Golang Sometimes if you install golang package using go get in terminal outside vim editor. It&amp;rsquo;s still showing import error.</description>
+    </item>
+    
+    <item>
+      <title>refactoring in vim - golang &amp; graphql</title>
+      <link>https://najamawans.com/posts/2023-04-19-refactoring-in-vim-golang-graphql/</link>
+      <pubDate>Wed, 19 Apr 2023 17:58:26 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2023-04-19-refactoring-in-vim-golang-graphql/</guid>
+      <description>Following will convert golang struct to a 99design graphql schema type.
+1 2 3 4 5 6 type Post struct { UserID int `json:&amp;#34;userId&amp;#34;` ID int `json:&amp;#34;id&amp;#34;` Title string `json:&amp;#34;title&amp;#34;` Body string `json:&amp;#34;body&amp;#34;` } If you want to change case on selected lines you can use following.
+1 :3,6s/`.*/ Above regular expression will remove the json tags from the line 3 to 6.
+1 2 3 4 5 6 type Post struct { UserID int ID int Title string Body string } Next two steps are field name to camel case and data type to be capitalize.</description>
+    </item>
+    
+    <item>
+      <title>Check which process is using specific port</title>
+      <link>https://najamawans.com/posts/2023-03-21-check-which-process-is-using-specific-port/</link>
+      <pubDate>Tue, 21 Mar 2023 17:58:26 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2023-03-21-check-which-process-is-using-specific-port/</guid>
+      <description>This is a simple command to find out about process id binded with a port. Maybe you can kil the process.
+1 lsof -i tcp:1313 </description>
+    </item>
+    
+    <item>
+      <title>change snake case to camel case using VIM</title>
+      <link>https://najamawans.com/posts/2023-03-15-vim-snake-case-to-camel-case/</link>
+      <pubDate>Wed, 15 Mar 2023 17:58:26 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2023-03-15-vim-snake-case-to-camel-case/</guid>
+      <description>As I&amp;rsquo;m working on refactoring some legacy code, I&amp;rsquo;ve encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I&amp;rsquo;ve noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file.
+Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.
+1 :1,$s/_\([a-z]\)/\u\1/g If you want to change case on selected lines you can use following.</description>
+    </item>
+    
+    <item>
+      <title>Vim set current directory to the current buffer directory</title>
+      <link>https://najamawans.com/posts/2023-02-27-vim-set-current-directory-to-the-current-buffer-directory/</link>
+      <pubDate>Mon, 27 Feb 2023 17:58:26 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2023-02-27-vim-set-current-directory-to-the-current-buffer-directory/</guid>
+      <description>Sometimes, I tend to forget this simple command, which can be handy for quickly switching to the directory of the current buffer in Vim. This can be useful when searching for files within your project, especially if your project search is not based on the git root or if your current directory is not being tracked by git.
+1 :cd %:p:h </description>
+    </item>
+    
     <item>
       <title>Running Minecraft On Linux</title>
       <link>https://najamawans.com/posts/2020-06-08-minecraftsetup/</link>
@@ -525,20 +579,6 @@ My walllop invites available</description>
     </item>
     
     <item>
-      <title>How to make custom spray for CS</title>
-      <link>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</link>
-      <pubDate>Sun, 30 Apr 2006 22:23:21 +0500</pubDate>
-      
-      <guid>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</guid>
-      <description>hi
-its very easy to use custome sprays in counter strike just follow all the steps given below
-download spray file with extension wad
-then rename it to tempdecal.wad
-now i have cs 1.6
-goto Counter-Strike\cstrike and paste wad file now start game goto options select srap apply it and start playing and during play press T to spray. Bye.</description>
-    </item>
-    
-    <item>
       <title>setting custome themes??</title>
       <link>https://najamawans.com/posts/2005-11-21-setting-custome-themes/</link>
       <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
@@ -566,48 +606,6 @@ najam sikander</description>
       
       <guid>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</guid>
       <description> </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://najamawans.com/posts/check-which-process-is-using-specific-port/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://najamawans.com/posts/check-which-process-is-using-specific-port/</guid>
-      <description>+++ categories = [&amp;ldquo;commands&amp;rdquo;] comments = false date = 2023-03-21T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;Check which process is using specific port&amp;rdquo;
-+++ This is a simple command to find out about process id binded with a port. Maybe you can kil the process.
-1 lsof -i tcp:1313 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://najamawans.com/posts/refactoring-in-vim-golang-graphql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://najamawans.com/posts/refactoring-in-vim-golang-graphql/</guid>
-      <description>+++ categories = [&amp;ldquo;golang&amp;rdquo;, &amp;ldquo;graphql&amp;rdquo;, &amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-04-19T21:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;refactoring in vim - golang &amp;amp; graphql&amp;rdquo;
-+++ Following will convert golang struct to a 99design graphql schema type.
-1 2 3 4 5 6 type Post struct { UserID int `json:&amp;#34;userId&amp;#34;` ID int `json:&amp;#34;id&amp;#34;` Title string `json:&amp;#34;title&amp;#34;` Body string `json:&amp;#34;body&amp;#34;` } If you want to change case on selected lines you can use following.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://najamawans.com/posts/vim-set-current-directory-to-the-current-buffer-directory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://najamawans.com/posts/vim-set-current-directory-to-the-current-buffer-directory/</guid>
-      <description>+++ categories = [&amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-02-27T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;Vim set current directory to the current buffer directory&amp;rdquo;
-+++ Sometimes, I tend to forget this simple command, which can be handy for quickly switching to the directory of the current buffer in Vim. This can be useful when searching for files within your project, especially if your project search is not based on the git root or if your current directory is not being tracked by git.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://najamawans.com/posts/vim-snake-case-to-camel-case/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://najamawans.com/posts/vim-snake-case-to-camel-case/</guid>
-      <description>+++ categories = [&amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-03-15T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;change snake case to camel case using VIM&amp;rdquo;
-+++ As I&amp;rsquo;m working on refactoring some legacy code, I&amp;rsquo;ve encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I&amp;rsquo;ve noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file.</description>
     </item>
     
     <item>
