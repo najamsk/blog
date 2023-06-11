@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/tips/</link>
+    <description>Recent content in tips on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2013 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fetch public tweets of any user using jQuery</title>
+      <link>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</guid>
+      <description>I have been asked by many friends how to load tweets of any user using jQuery I have put some time and found two ways to do that using jQuery.
+Twitter Timeline API following is the code to get public tweets of any user using javascript and twitter timeline api
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 $.ajax({ type : &amp;#39;GET&amp;#39;, dataType : &amp;#39;jsonp&amp;#39;, url : &amp;#39;http://api.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB Setup On Windows 8</title>
+      <link>https://najamawans.com/posts/2013-10-22-mongodb-setup-on-windows-8/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-10-22-mongodb-setup-on-windows-8/</guid>
+      <description>I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.
+In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&amp;rsquo;t use it in any project until now.</description>
+    </item>
+    
+    <item>
+      <title>MVC3 Scaffolding Commands</title>
+      <link>https://najamawans.com/posts/2013-05-03-mvc3-scafolding-commands/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-mvc3-scafolding-commands/</guid>
+      <description>I had a freelance project that I have decided to do in MVC3 and to found following scaffolding commands very useful to get my Context, repository, controller, controller and views in PM console inside visual studio
+1 2 3 4 5 Scaffold DbContext -Project CRS.Domain Service Concrete.CRSContext Scaffold Repository -ModelType Attachment -DbContextType BigApp.Domain.Concrete.BigAppContext -force Scaffold Controller -ModelType BigApp.Domain.Entities.Project -ControllerName Projects -DbContextType BigApp.Domain.Concrete.BigAppContext -Repository -NoChildItems -Force Scaffold Controller -ModelType CRS.Domain.Entities.Service -ControllerName Services -DbContextType CRS.</description>
+    </item>
+    
+    <item>
+      <title>Testing jQuery code via YUI Test</title>
+      <link>https://najamawans.com/posts/2013-05-03-testing-jquery-code-via-yui-test/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-testing-jquery-code-via-yui-test/</guid>
+      <description>The term TDD is not new to me I heard it quite often but never took time to go into details until last few days. I have been checking stuff from YUI team and liked their YUI test framework for now ,but in future i might switch to qUint (jquery testing framework) as I am big fan of jQuery and using it daily.
+There are different version of YUI like 2.</description>
+    </item>
+    
+    <item>
+      <title>CSS Diet Plan - first step to object oriented css</title>
+      <link>https://najamawans.com/posts/2010-12-03-css-diet-plan/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-03-css-diet-plan/</guid>
+      <description>I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
+If you are a vim user and your css file is loaded into vim in command mode enter following command
+output will be the number of type font-size is used in your css file.
+for grep open your command line and enter</description>
+    </item>
+    
+    <item>
+      <title>CSS Overflow benefit</title>
+      <link>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</guid>
+      <description>I read this article http://bit.ly/16pqBm and find out the power of overflow that is when you set it to a value it creates a new block formatting context in simple word that means non floated element’s content will not flow around the floated element instead will get narrower.
+PS. Width should not be mentioned for non floated content so it can get narrower.</description>
+    </item>
+    
+    <item>
+      <title>Get Running Jquery Version</title>
+      <link>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</guid>
+      <description>Few weeks back I came across a page that has multiple jquery versions referenced in it and I had no idea which jquery version is actually running. So after little bit of googling I find following solution.
+//Returns &amp;ldquo;1.3.1&amp;rdquo; jQuery.fn.jquery;</description>
+    </item>
+    
+    <item>
+      <title>Highlight your code with wordpress</title>
+      <link>https://najamawans.com/posts/2009-02-03-highlight-your-code-with-wordpress/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-highlight-your-code-with-wordpress/</guid>
+      <description>Hi guys, Today I have installed a new wordpress plugin called &amp;ldquo;Code Snippet&amp;rdquo; and it support code highlight for many languages try this out you would love it. Download it now.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Core6 spoofing mac address</title>
+      <link>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</guid>
+      <description>hi
+Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.
+I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD. I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss.</description>
+    </item>
+    
+    <item>
+      <title>oh God Hd audio driver for linux</title>
+      <link>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</guid>
+      <description>hi guyz;
+Well after solving problem for my lan card through mac spoofing next problem that I want to solve now is making sound work on my acer laptop while running fedore core 6 live cd.
+Now as i inspect my hardware i get to know that i have a realtek sound card that has hd audio codec Alc 883 now.
+to check if your hardware is detected by linux or not you have to run following command in shell</description>
+    </item>
+    
+    <item>
+      <title>Realtek HD sound card working</title>
+      <link>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</guid>
+      <description>Hi guyz
+My sound card working now after installing latest Alsa driver, Lib and Utils.
+Compile alsa-driver like this:
+1 2 3 ./configure --with-cards=hda-intel make make install and alsa-lib and alsa-util in this order like this:
+1 2 3 ./configure make make install Reboot and there you go!
+Regards Najam Sikander Awan</description>
+    </item>
+    
+    <item>
+      <title>How to make custom spray for CS</title>
+      <link>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</link>
+      <pubDate>Sun, 30 Apr 2006 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</guid>
+      <description>hi
+its very easy to use custome sprays in counter strike just follow all the steps given below
+download spray file with extension wad
+then rename it to tempdecal.wad
+now i have cs 1.6
+goto Counter-Strike\cstrike and paste wad file now start game goto options select srap apply it and start playing and during play press T to spray. Bye.</description>
+    </item>
+    
+    <item>
+      <title>Speed Up Firfox</title>
+      <link>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</link>
+      <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Najam Sikander Awan</title>
+    <link>https://najamawans.com/posts/</link>
+    <description>Recent content in Posts on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2020 15:42:02 +0500</lastBuildDate><atom:link href="https://najamawans.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Minecraft On Linux</title>
+      <link>https://najamawans.com/posts/2020-06-08-minecraftsetup/</link>
+      <pubDate>Mon, 08 Jun 2020 15:42:02 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2020-06-08-minecraftsetup/</guid>
+      <description>I have heard about Minecraft before and never paid much attention to it until my wife told me to try it out and see if our kid take any interest in that. I took this mission and invest bit of time, if I recall correctly it took me 4 days to get the result i wanted with mods. I had to do mods to get Elephants available my Kid loves them.</description>
+    </item>
+    
+    <item>
+      <title>Setting up blog with hugo &amp; vercel</title>
+      <link>https://najamawans.com/posts/2020-05-01-settingup-hugo/</link>
+      <pubDate>Thu, 30 Apr 2020 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2020-05-01-settingup-hugo/</guid>
+      <description>I am playing with Hugo trying to get a blog up and running with it. I have following TODO items in mind with my blog:
+get a clean theme get code preview maybe comments support something? deployment of theme and any custom code with Vercel formerly known as Zeit. Get Theme I end up choosing hyde-hyde due to it&amp;rsquo;s slick clean look. After that I explore how to make sidebar links work.</description>
+    </item>
+    
+    <item>
+      <title>Archive Folders With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-archive-folders-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-archive-folders-with-powershell/</guid>
+      <description>When your web application is running on web server and you don&amp;rsquo;t have automatic backup service available form your hosting service provider taking manual backups is really a frustrating job.
+I have Pscx module installed on my PC and they have a nice little command Write-Zip available so I decided to write a custom powershell function that can create archive in zip formats for me. You can use windows task scheduler to invoke any powershell script so you can take advantage of this to have automatic daily or monthly backups.</description>
+    </item>
+    
+    <item>
+      <title>Automating Ftp Uploads With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-automating-ftp-uploads-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-automating-ftp-uploads-with-powershell/</guid>
+      <description>In my last post I have shared hwo you can archive a folder via powershell and Pscx. In my normal backup process I am used to upload zip files using ftp client like filezilla but now I am trying powershell to perform this task.
+Please feel free to test following code and let me know your thoughts and improvements.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 #upload file using ftp function FtpUpload ($file, $ftphost, $ftpuser, $ftppass) { $Dir = Split-Path $file -Parent $filename = $file.</description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration &amp; Deployment For .Net Projects</title>
+      <link>https://najamawans.com/posts/2014-12-31-continuous-integration-and-deployment-for-net-projects/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-12-31-continuous-integration-and-deployment-for-net-projects/</guid>
+      <description>I have been involved with development of small and large web applications for quite sometime now. While using latest tools and technology for development I always felt my workflow is from ancient times. Recently I got much obsessed with automation, I thought to improve my development workflow. In my mind I knew I need to do something about build process, tests the build, deployment of latest build and notify team members that new code/build is available.</description>
+    </item>
+    
+    <item>
+      <title>Sending Emails With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</guid>
+      <description>I am managing different servers and each of them have different responsibilities.
+I am learning powershell and trying to build lego blocks that will eventually become recipes for automating tasks on different servers. One important block is email report for that if you don&amp;rsquo;t have smtp configured on server you can use following powershell script with gmail SMTP information.
+I will open source on github many of the small powershell scripts that you can make use of to build something cool.</description>
+    </item>
+    
+    <item>
+      <title>empower your outlook with powershell</title>
+      <link>https://najamawans.com/posts/2013-07-07-empower-your-outlook-with-powershell/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-07-07-empower-your-outlook-with-powershell/</guid>
+      <description>I needed to genrate an email log that contains every email from our clients these normally stored in their seprate folder. One way was to copy and paste email headers and body into a word document. Second was to use powershell and got all the emails using some script.
+After playing a little with powershell and google few of its basic I have completed my task with powershell.
+{% gist 5944505 %}</description>
+    </item>
+    
+    <item>
+      <title>fetch public tweets of any user using jQuery</title>
+      <link>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</guid>
+      <description>I have been asked by many friends how to load tweets of any user using jQuery I have put some time and found two ways to do that using jQuery.
+Twitter Timeline API following is the code to get public tweets of any user using javascript and twitter timeline api
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 $.ajax({ type : &amp;#39;GET&amp;#39;, dataType : &amp;#39;jsonp&amp;#39;, url : &amp;#39;http://api.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB Setup On Windows 8</title>
+      <link>https://najamawans.com/posts/2013-10-22-mongodb-setup-on-windows-8/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-10-22-mongodb-setup-on-windows-8/</guid>
+      <description>I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.
+In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&amp;rsquo;t use it in any project until now.</description>
+    </item>
+    
+    <item>
+      <title>MVC3 Scaffolding Commands</title>
+      <link>https://najamawans.com/posts/2013-05-03-mvc3-scafolding-commands/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-mvc3-scafolding-commands/</guid>
+      <description>I had a freelance project that I have decided to do in MVC3 and to found following scaffolding commands very useful to get my Context, repository, controller, controller and views in PM console inside visual studio
+1 2 3 4 5 Scaffold DbContext -Project CRS.Domain Service Concrete.CRSContext Scaffold Repository -ModelType Attachment -DbContextType BigApp.Domain.Concrete.BigAppContext -force Scaffold Controller -ModelType BigApp.Domain.Entities.Project -ControllerName Projects -DbContextType BigApp.Domain.Concrete.BigAppContext -Repository -NoChildItems -Force Scaffold Controller -ModelType CRS.Domain.Entities.Service -ControllerName Services -DbContextType CRS.</description>
+    </item>
+    
+    <item>
+      <title>playing with octopress blogging</title>
+      <link>https://najamawans.com/posts/2013-04-22-playing-with-octopress-blogging/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-04-22-playing-with-octopress-blogging/</guid>
+      <description>I first came to know about octopress from yayquery episode in which rebbeca murphy mentioned she has moved her blog form wordpress to octopress and she is very happy with that. At that time I didn&amp;rsquo;t paid any attention to this.
+But today I suddenly started to play with it and I liked few things I learn along the way and that kept me going till I have imported all of my posts from wordpress to github pages.</description>
+    </item>
+    
+    <item>
+      <title>Testing jQuery code via YUI Test</title>
+      <link>https://najamawans.com/posts/2013-05-03-testing-jquery-code-via-yui-test/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-testing-jquery-code-via-yui-test/</guid>
+      <description>The term TDD is not new to me I heard it quite often but never took time to go into details until last few days. I have been checking stuff from YUI team and liked their YUI test framework for now ,but in future i might switch to qUint (jquery testing framework) as I am big fan of jQuery and using it daily.
+There are different version of YUI like 2.</description>
+    </item>
+    
+    <item>
+      <title>Back on linux with ubuntu using Virtual Box</title>
+      <link>https://najamawans.com/posts/2011-04-02-back-on-linux-with-ubuntu-using-virtual-box/</link>
+      <pubDate>Sat, 30 Apr 2011 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2011-04-02-back-on-linux-with-ubuntu-using-virtual-box/</guid>
+      <description>Well for some experiments that involved git and curl I was coming across the windows problem I was trying to make my way using cygwin but after few stuck I always get stuck. Everyone&amp;rsquo;s recommended solution was using linux OS so I have download virtual box created a virtual machine and then installed ubuntu iso 10.10 32 bit. Now as I am trying to get some softwares like chrome and vim I got few errors in package manager saying something like waiting for jockey to end.</description>
+    </item>
+    
+    <item>
+      <title>Upgraded my hosting for .net 4.0</title>
+      <link>https://najamawans.com/posts/2011-08-09-upgraded-my-hosting-for-net-4-0/</link>
+      <pubDate>Sat, 30 Apr 2011 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2011-08-09-upgraded-my-hosting-for-net-4-0/</guid>
+      <description>I have been watching Mix11 videos about asp.net mvc3 and felt pretty excited to mingle with these latest bits but I didn&amp;rsquo;t wanted to limit myself to local environment I wanted to know what efforts are required if I am developing with latest stuff one limitation I had that my host always take ages to update server so I had support for .net3.5. I email them about this thing and in reply they told me either wait 6 months or pay $8.</description>
+    </item>
+    
+    <item>
+      <title>C# Parent Child Reference Variable &amp;amp; Object Casting</title>
+      <link>https://najamawans.com/posts/2010-01-25-221/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-01-25-221/</guid>
+      <description>I have been clearing my concepts regarding inheritance and investigating if parent reference variable can point to child class object and vice versa.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 using System; using System.</description>
+    </item>
+    
+    <item>
+      <title>CSS Diet Plan - first step to object oriented css</title>
+      <link>https://najamawans.com/posts/2010-12-03-css-diet-plan/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-03-css-diet-plan/</guid>
+      <description>I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
+If you are a vim user and your css file is loaded into vim in command mode enter following command
+output will be the number of type font-size is used in your css file.
+for grep open your command line and enter</description>
+    </item>
+    
+    <item>
+      <title>CSS Overflow benefit</title>
+      <link>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</guid>
+      <description>I read this article http://bit.ly/16pqBm and find out the power of overflow that is when you set it to a value it creates a new block formatting context in simple word that means non floated element’s content will not flow around the floated element instead will get narrower.
+PS. Width should not be mentioned for non floated content so it can get narrower.</description>
+    </item>
+    
+    <item>
+      <title>Facebook Application Development using Asp.net</title>
+      <link>https://najamawans.com/posts/2010-09-23-facebook-application-development-using-asp-net/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-09-23-facebook-application-development-using-asp-net/</guid>
+      <description>Hi,
+I have been busy with facebook application development using IFrame and since I have asp.net background so instead of php I wanted to do this in asp.net their are few wrappers or sdk available for this like. After googling I have picked Facebook developer toolkit v3.01. After downloading the binaries I have created a asp.net web application project with 4.0 framework and simply added the reference of facebook.dll and facebook.</description>
+    </item>
+    
+    <item>
+      <title>Get Running Jquery Version</title>
+      <link>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</guid>
+      <description>Few weeks back I came across a page that has multiple jquery versions referenced in it and I had no idea which jquery version is actually running. So after little bit of googling I find following solution.
+//Returns &amp;ldquo;1.3.1&amp;rdquo; jQuery.fn.jquery;</description>
+    </item>
+    
+    <item>
+      <title>BLL - Business layer with Linq</title>
+      <link>https://najamawans.com/posts/2009-06-08-bll-business-layer-with-linq/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-06-08-bll-business-layer-with-linq/</guid>
+      <description>Hello guys,
+This is my first Bll class that is using linq and returning objects to presentation layer. Main data component class is ItemsDT which contain another skeleton class &amp;ldquo;ItemGridView&amp;rdquo; for custom view of items data table. &amp;ldquo;ItemGridView&amp;rdquo; contains basically have the fields that i want to show in my presentation layer. Note that items datatable has many column which can be reterived by calling AllItems() method.
+If you just want to list all the methods into your table that is also included into your linq to sql file then you can set your method return type to list collection of the type that specified in dbml file (linq to sql).</description>
+    </item>
+    
+    <item>
+      <title>C# Interfaces</title>
+      <link>https://najamawans.com/posts/2009-06-22-c-interfaces/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-06-22-c-interfaces/</guid>
+      <description>These parts are taken from msdn and some might be taken from other websites.
+An interface can inherit from one or more base interfaces.
+When a base type list contains a base class and interfaces, the base class must come first in the list.
+A class that implements an interface can explicitly implement members of that interface. An explicitly implemented member cannot be accessed through a class instance, but only through an instance of the interface.</description>
+    </item>
+    
+    <item>
+      <title>Calling asp.net page methods with jquery</title>
+      <link>https://najamawans.com/posts/2009-02-03-calling-aspnet-page-methods-with-jquery/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-calling-aspnet-page-methods-with-jquery/</guid>
+      <description>Hi guyz,
+Today I am sharing how to call asp.net web page code behind methods from client side javascript in my case it will be jquery.
+Let us divide this into two parts the server side and client side on server side we have to write a function or page method.
+1 2 3 4 5 [WebMethod] public static string AddStrings(string a, string b) { return string.Format(&amp;#34;my friend answer is {0}&amp;#34;, a + b); } Note that we mark our AddStrings function as WebMethod and its public and static this is the basic requirement for the funtion if you want to call it from javascript or jquery.</description>
+    </item>
+    
+    <item>
+      <title>Consuming asp.net webservice with jquery</title>
+      <link>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</guid>
+      <description>hi guys,
+Well I like to share one more experiment with you that is how to call a webservice from your javascript(jquery). For that again you need to have an asp.net ajax enable website.
+Lets first examine what are the requiments for webservice if we need to call it from javascript well after having asp.net ajax enable website first is you should mark your serverice as [ScriptService] what it does it will make all the methods/functions of your webservice to be accessable from javascript code and it also serialise your webservice response using JASON .</description>
+    </item>
+    
+    <item>
+      <title>Custom Event for Classes</title>
+      <link>https://najamawans.com/posts/2009-07-06-custom-event-for-classes/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-07-06-custom-event-for-classes/</guid>
+      <description>I was reading how to write events for your custom classes so after reading a little I thought give it a shot and created this sample code. Below code is using Product class with event and delegate for event handling and other class named Test is using this class and manipulate product class data. If you change the Name of the product event will fire.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 using System; using System.</description>
+    </item>
+    
+    <item>
+      <title>Design Patterns -- Iterator</title>
+      <link>https://najamawans.com/posts/2009-07-08-design-patterns-iterator/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-07-08-design-patterns-iterator/</guid>
+      <description>Hi Guys,
+I am reading more on design patterns from this article after little theory session here is working code. Key point was all of the collection classes in the System.Collections namespace, as well as arrays, implement IEnumerable and can therefore be iterated over.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 using System; using System.</description>
+    </item>
+    
+    <item>
+      <title>Finally I have my hands on linq</title>
+      <link>https://najamawans.com/posts/2009-06-08-finally-i-have-my-hands-on-linq/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-06-08-finally-i-have-my-hands-on-linq/</guid>
+      <description>hi folks
+After developing few asp.net 2.0 websites as our hosting upgraded to asp.net 3.5 I am finally making a dynamic website in asp.net 3.5 using linq to sql and I am trying hard to follow 3 tier model.
+I will keep posting about this learning adventure of mine.</description>
+    </item>
+    
+    <item>
+      <title>git tracking and deleting remote branches</title>
+      <link>https://najamawans.com/posts/2009-07-20-git-tracking-and-deleting-remote-branches/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-07-20-git-tracking-and-deleting-remote-branches/</guid>
+      <description>List the remote branches that exist for a repository you have cloned:
+git remote show origin Create a local branch that tracks one of the remote branches and then use that local branch:
+git checkout --track -b name_of_local_branch origin/name_of_remote_branch If you have not done a pull since someone else created the remote branch, you may first need to do:
+git fetch Remove branch from repo.
+git push {repo} :heads/{branch}
+Ex: git push origin :somebranch removes somebranch</description>
+    </item>
+    
+    <item>
+      <title>Highlight your code with wordpress</title>
+      <link>https://najamawans.com/posts/2009-02-03-highlight-your-code-with-wordpress/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-highlight-your-code-with-wordpress/</guid>
+      <description>Hi guys, Today I have installed a new wordpress plugin called &amp;ldquo;Code Snippet&amp;rdquo; and it support code highlight for many languages try this out you would love it. Download it now.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript, 5 ways to call a function</title>
+      <link>https://najamawans.com/posts/2009-06-29-javascript-5-ways-to-call-a-function/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-06-29-javascript-5-ways-to-call-a-function/</guid>
+      <description>Hello
+I have came across to this wonderful blog post that show in details how to call javascript functions using different ways its a must read article even if you are not good in javascript please read article at
+http://devlicio.us/blogs/sergio_pereira/archive/2009/02/09/javascript-5-ways-to-call-a-function.aspx</description>
+    </item>
+    
+    <item>
+      <title>Observer pattern with .net</title>
+      <link>https://najamawans.com/posts/2009-07-08-observer-pattern-with-net/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-07-08-observer-pattern-with-net/</guid>
+      <description>Hi folks,
+Well I am investigating design patterns by reading an article so after reading a bit I thought it would be nice if I write some code and test it.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 using System; using System.</description>
+    </item>
+    
+    <item>
+      <title>Finally my Ms is completed</title>
+      <link>https://najamawans.com/posts/2008-07-16-finally-my-ms-is-completed/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-16-finally-my-ms-is-completed/</guid>
+      <description>Ummm whats new in my life?
+Well finally my Ms in telecom is completed all courses are clear and i am fleeing like a free bird. Tension free consitration on my job no more travling in triangle from home to office and then from there to university.
+Hopefully now i will get some time to write for my blog. If anyone still reading please keep reading</description>
+    </item>
+    
+    <item>
+      <title>Read SMTP settings from asp.net web.config</title>
+      <link>https://najamawans.com/posts/2008-07-16-read-smtp-settings-from-aspnet-webconfig/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-16-read-smtp-settings-from-aspnet-webconfig/</guid>
+      <description>hi guyz
+Sorry for writing after such a long time i guess i am very busy now a days so for a project i needed to read my smtp email settings defined in my web.config file so after some efforts i am able to read these settings direct from my system .net section.
+1 2 3 4 5 6 7 System.Configuration.Configuration config = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration(HttpContext.Current.Request.ApplicationPath); System.Net.Configuration.MailSettingsSectionGroup settings = (System.Net.Configuration.MailSettingsSectionGroup) config.GetSectionGroup(&amp;#34;system.net/mailSettings&amp;#34;); Response.Write(&amp;#34;&amp;amp;lt;br&amp;amp;gt;Username=&amp;#34;+settings.Smtp.Network.UserName); Response.</description>
+    </item>
+    
+    <item>
+      <title>Sql Data Srouce Control Deleting Data From Database</title>
+      <link>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-deleting-data-from-database/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-deleting-data-from-database/</guid>
+      <description>Hey guyz today i will show you how to fire delete query by using our beloved control sqldatasource.
+Here is the code
+1 2 3 4 5 SqlDataSource myDbSource22 = new SqlDataSource(); myDbSource22.ConnectionString = ConfigurationManager.ConnectionStrings[&amp;#34;lalConnectionString&amp;#34;].ConnectionString; myDbSource22.ProviderName = &amp;#34;System.Data.SqlClient&amp;#34;; myDbSource22.DeleteCommand = &amp;#34;delete from ProductsGroups where pid = &amp;#34; + productId; myDbSource22.Delete(); All it does it deletes all the rows for a given productID from table productgroups. Simple right ;)</description>
+    </item>
+    
+    <item>
+      <title>Sql Data Srouce Control Fetch data from database</title>
+      <link>https://najamawans.com/posts/2008-07-16-sql-datasource/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-16-sql-datasource/</guid>
+      <description>Hi in asp.net 2.0 this new datasource control has been added and i liked it alot and i used it on many places so i thought it would be nice if I share my knowledge with all my readers so first of all i would just like to show you how to retrieve some data from your database into C# code behind file.
+1 2 3 4 5 6 7 8 9 10 11 12 13 string userID = string.</description>
+    </item>
+    
+    <item>
+      <title>Sql Data Srouce Control Inserting Data Into Database</title>
+      <link>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-inserting-data-into-database/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-inserting-data-into-database/</guid>
+      <description>hey guyz how are you ??
+Me back with my sqldatasource series. Today i will show you how to fire insert query using sqldatasource control into code behind i am using c#.
+Below is the sample code UserID is the parameter passing into a function as an argument.
+1 2 3 4 5 6 7 8 9 10 11 12 13 DateTime Entrydate = DateTime.Today; SqlDataSource myDbSource = new SqlDataSource(); myDbSource.</description>
+    </item>
+    
+    <item>
+      <title>Sql Data Srouce Control Updating Data From Database</title>
+      <link>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-updating-data-from-database/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-17-sql-data-srouce-control-updating-data-from-database/</guid>
+      <description>hey guyz finally we have to learn how to update our tables in database so only for you guys here is my sample code
+1 2 3 4 5 6 7 string giftId = GridView1.SelectedRow.Cells[0].Text.ToString(); //getting an id SqlDataSource myDbSource = new SqlDataSource(); myDbSource.ConnectionString = ConfigurationManager.ConnectionStrings[&amp;#34;ConnectionString&amp;#34;].ConnectionString; //myDbSource.InsertCommand = &amp;#34;update gifts set giftActivate=1 where giftId=&amp;#34; + Entrydate + &amp;#34;)&amp;#34;; myDbSource.UpdateCommand = &amp;#34;update gifts set giftActivate=&amp;#39;1&amp;#39; where giftId=&amp;#34; + giftId; myDbSource.ProviderName = &amp;#34;System.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Core6 spoofing mac address</title>
+      <link>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</guid>
+      <description>hi
+Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.
+I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD. I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss.</description>
+    </item>
+    
+    <item>
+      <title>Finally I Have My Own Domain</title>
+      <link>https://najamawans.com/posts/2007-09-30-finally-my-own-domain/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-09-30-finally-my-own-domain/</guid>
+      <description>Hi guyz,
+After many days I am back and back for good :) recentlly i purchased a domain name and hosting package, so that i can have my own website and I want my settings persistent which was not possible in the case of free hosting like in my case my hosting provider remove the mysql database support.
+Can&amp;rsquo;t tell you how happy I am after getting my website up and running its currently in beta state I will design it from scratch as time permits and planning to use table less design.</description>
+    </item>
+    
+    <item>
+      <title>How to enable full multimedia capabilities on Suse 10.2</title>
+      <link>https://najamawans.com/posts/2007-03-12-how-to-enable-full-multimedia-capabilities-on-suse-102-using-the-xine-engine/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-03-12-how-to-enable-full-multimedia-capabilities-on-suse-102-using-the-xine-engine/</guid>
+      <description>NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.
+The first step in resolving the multimedia issue is to setup additional YAST software sources. The software repositories used in this howto, are Packman and Guru. If possible, please use a mirror instead of the main download site to prevent overloading one download location.</description>
+    </item>
+    
+    <item>
+      <title>How to get directory name of the page currently displaying</title>
+      <link>https://najamawans.com/posts/2007-11-06-how-to-get-directory-name-of-the-page-currently-displaying/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-11-06-how-to-get-directory-name-of-the-page-currently-displaying/</guid>
+      <description>If you want to know only the directory name not the full path of the page that is currently displaying you can use this code
+1 2 3 4 string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath; System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath); string sRet = oInfo.Directory.Name.ToString(); Response.Write(&amp;#34;&amp;amp;lt;br&amp;amp;gt;&amp;amp;lt;br&amp;amp;gt;Directory name===&amp;#34; + sRet + &amp;#34;&amp;amp;lt;br&amp;amp;gt;&amp;amp;lt;br&amp;amp;gt;&amp;#34;); Happy Coding
+Najam Sikander Awan</description>
+    </item>
+    
+    <item>
+      <title>How to get pagename of itself</title>
+      <link>https://najamawans.com/posts/2007-11-06-how-to-get-pagename-of-itself/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-11-06-how-to-get-pagename-of-itself/</guid>
+      <description>If you want to display the filename or page name of the current displaying page just use these two lines and it will show only the filename like default.aspx, najam.aspx or indexas.aspx no matter it these pages are located deep into your site structure.
+1 string pagename = System.IO.Path.GetFileName(Request.ServerVariables[&amp;#34;SCRIPT_NAME&amp;#34;]); Response.Write(pagename); Enjoy coding
+Najam Sikander Awan</description>
+    </item>
+    
+    <item>
+      <title>oh God Hd audio driver for linux</title>
+      <link>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</guid>
+      <description>hi guyz;
+Well after solving problem for my lan card through mac spoofing next problem that I want to solve now is making sound work on my acer laptop while running fedore core 6 live cd.
+Now as i inspect my hardware i get to know that i have a realtek sound card that has hd audio codec Alc 883 now.
+to check if your hardware is detected by linux or not you have to run following command in shell</description>
+    </item>
+    
+    <item>
+      <title>Realtek HD sound card working</title>
+      <link>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</guid>
+      <description>Hi guyz
+My sound card working now after installing latest Alsa driver, Lib and Utils.
+Compile alsa-driver like this:
+1 2 3 ./configure --with-cards=hda-intel make make install and alsa-lib and alsa-util in this order like this:
+1 2 3 ./configure make make install Reboot and there you go!
+Regards Najam Sikander Awan</description>
+    </item>
+    
+    <item>
+      <title>reinstall grub after installing windows xp</title>
+      <link>https://najamawans.com/posts/2007-03-01-reinstall-grub-after-installing-windows-xp/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-03-01-reinstall-grub-after-installing-windows-xp/</guid>
+      <description>hi guyz
+Today i formated my c drive in which vista was installed and i replaced it with windows xp after installing win xp into my c drive my boot loader is disappeared as expected.
+Fixing grub (boot loader) is simple insert your suse 10.2 dvd or frist cd into drive and boot from it choose &amp;ldquo;Rescue System&amp;rdquo; after loading some stuff system will take you into command prompt</description>
+    </item>
+    
+    <item>
+      <title>Vychat alternative for my suse 10.2 laptop</title>
+      <link>https://najamawans.com/posts/2007-03-12-vychat-alternative-for-my-suse-102-laptop/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-03-12-vychat-alternative-for-my-suse-102-laptop/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Wifi working on my acer 1642 with suse 10.2</title>
+      <link>https://najamawans.com/posts/2007-04-14-wifi-working-on-my-acer-1642-with-suse-102/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-04-14-wifi-working-on-my-acer-1642-with-suse-102/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Gmail, Msn Live and other invites</title>
+      <link>https://najamawans.com/posts/2006-02-23-gmail-msn-live-and-other-invites/</link>
+      <pubDate>Sun, 30 Apr 2006 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2006-02-23-gmail-msn-live-and-other-invites/</guid>
+      <description>If anyone want to have invite of gmail,msn live messenger or mywallop (community) then please leave your email address as comment and dont forget to mention what invite you want.
+Gmail invites available
+Windows Live Messenger (WLM) available
+My walllop invites available</description>
+    </item>
+    
+    <item>
+      <title>How to make custom spray for CS</title>
+      <link>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</link>
+      <pubDate>Sun, 30 Apr 2006 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</guid>
+      <description>hi
+its very easy to use custome sprays in counter strike just follow all the steps given below
+download spray file with extension wad
+then rename it to tempdecal.wad
+now i have cs 1.6
+goto Counter-Strike\cstrike and paste wad file now start game goto options select srap apply it and start playing and during play press T to spray. Bye.</description>
+    </item>
+    
+    <item>
+      <title>setting custome themes??</title>
+      <link>https://najamawans.com/posts/2005-11-21-setting-custome-themes/</link>
+      <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2005-11-21-setting-custome-themes/</guid>
+      <description>hi
+i am using wordpress.com very first time i dont know how to set custom themes (http://managedtasks.com/wpthemes/blog/index.php?wptheme=narnia) from my panel i donwloaded a theme from wordpress which can be found at http://managedtasks.com/wpthemes/blog/index.php?wptheme=narnia can anyone please help me how to set this theme for my blog
+thanks
+najam sikander</description>
+    </item>
+    
+    <item>
+      <title>Software development</title>
+      <link>https://najamawans.com/posts/2005-11-30-software-development/</link>
+      <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2005-11-30-software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speed Up Firfox</title>
+      <link>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</link>
+      <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://najamawans.com/posts/check-which-process-is-using-specific-port/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/check-which-process-is-using-specific-port/</guid>
+      <description>+++ categories = [&amp;ldquo;commands&amp;rdquo;] comments = false date = 2023-03-21T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;Check which process is using specific port&amp;rdquo;
++++ This is a simple command to find out about process id binded with a port. Maybe you can kil the process.
+1 lsof -i tcp:1313 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://najamawans.com/posts/refactoring-in-vim-golang-graphql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/refactoring-in-vim-golang-graphql/</guid>
+      <description>+++ categories = [&amp;ldquo;golang&amp;rdquo;, &amp;ldquo;graphql&amp;rdquo;, &amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-04-19T21:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;refactoring in vim - golang &amp;amp; graphql&amp;rdquo;
++++ Following will convert golang struct to a 99design graphql schema type.
+1 2 3 4 5 6 type Post struct { UserID int `json:&amp;#34;userId&amp;#34;` ID int `json:&amp;#34;id&amp;#34;` Title string `json:&amp;#34;title&amp;#34;` Body string `json:&amp;#34;body&amp;#34;` } If you want to change case on selected lines you can use following.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://najamawans.com/posts/vim-set-current-directory-to-the-current-buffer-directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/vim-set-current-directory-to-the-current-buffer-directory/</guid>
+      <description>+++ categories = [&amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-02-27T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;Vim set current directory to the current buffer directory&amp;rdquo;
++++ Sometimes, I tend to forget this simple command, which can be handy for quickly switching to the directory of the current buffer in Vim. This can be useful when searching for files within your project, especially if your project search is not based on the git root or if your current directory is not being tracked by git.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://najamawans.com/posts/vim-snake-case-to-camel-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/vim-snake-case-to-camel-case/</guid>
+      <description>+++ categories = [&amp;ldquo;vim&amp;rdquo;] comments = true date = 2023-03-15T22:00:00Z layout = &amp;quot;&amp;quot; title = &amp;ldquo;change snake case to camel case using VIM&amp;rdquo;
++++ As I&amp;rsquo;m working on refactoring some legacy code, I&amp;rsquo;ve encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I&amp;rsquo;ve noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file.</description>
+    </item>
+    
+    <item>
+      <title>Modify Firefox 1.5 to work with all extensions</title>
+      <link>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

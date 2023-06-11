@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.112.7">
+
+    
+    
+    
+
+<title>How to enable full multimedia capabilities on Suse 10.2 • Najam Sikander Awan</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to enable full multimedia capabilities on Suse 10.2"/>
+<meta name="twitter:description" content="NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.
+The first step in resolving the multimedia issue is to setup additional YAST software sources. The software repositories used in this howto, are Packman and Guru. If possible, please use a mirror instead of the main download site to prevent overloading one download location."/>
+
+<meta property="og:title" content="How to enable full multimedia capabilities on Suse 10.2" />
+<meta property="og:description" content="NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.
+The first step in resolving the multimedia issue is to setup additional YAST software sources. The software repositories used in this howto, are Packman and Guru. If possible, please use a mirror instead of the main download site to prevent overloading one download location." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://najamawans.com/posts/2007-03-12-how-to-enable-full-multimedia-capabilities-on-suse-102-using-the-xine-engine/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2007-04-30T22:23:21+05:00" />
+<meta property="article:modified_time" content="2007-04-30T22:23:21+05:00" />
+
+
+    
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.cc49e0e2312bae5645f26741f214c75c971aad122334531dd8911f9741e46ccf.css" integrity="sha256-zEng4jErrlZF8mdB8hTHXJcarRIjNFMd2JEfl0HkbM8=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="orange ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://najamawans.com">Najam Sikander Awan</a>
+      </span>
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Najam Sikander Awan</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/uploads/cv.pdf">
+						<span>My CV</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/najamsikander" rel="me" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/najams" rel="me" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/najamsk" rel="me" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/last_bubloo" rel="me" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/najamsikander" rel="me" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>How to enable full multimedia capabilities on Suse 10.2</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 30, 2007
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/linux">LINUX</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.</p>
+<p>The first step in resolving the multimedia issue is to setup additional YAST <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->software<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> sources. The software repositories used in this howto, are <!-- raw HTML omitted -->Packman<!-- raw HTML omitted --> and <!-- raw HTML omitted -->Guru<!-- raw HTML omitted -->. If possible, please use a mirror instead of the main download site to prevent overloading one download location. The mirrors for Packman are listed <!-- raw HTML omitted -->here<!-- raw HTML omitted --> and the ones for Guru are on the section titled &ldquo;Mirrors&rdquo; on this <!-- raw HTML omitted -->page<!-- raw HTML omitted -->.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->Adding the Packman Repository<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->Adding the Guru Repository<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>*The process is similar to adding the packman repo, the only difference being the mirros, so I won&rsquo;t delve into that. Follow the instructions above and just substitute server names and directory paths.</p>
+<p>Working Example</p>
+<p><!-- raw HTML omitted -->Server Name: <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->ftp.gwdg.de<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->Directory on Server: /pub/linux/misc/suser-guru/rpm/10.2/RPMS<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->Installing the required packages<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Once the mirrors have been setup do the following,</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>NOTE: We did not use any packages from the Guru repository, but it has some apps e.g. Kmplayer, amarok-xmms, and others as well as not multimedia packages that you may find useful.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->Playing encrypted DVD discs<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>Xine cannot play encrypted dvd discs without some help. If you want to do this, then go to <!-- raw HTML omitted -->videolan<!-- raw HTML omitted --> and download the libdvdcss rpm. Install the rpm by doing</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->A note on package management<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>If you have problems with your package manager, it maybe a good idea to drop back to the old Suse package manager instead of the Zenworks related tools. To do this do</p>
+<!-- raw HTML omitted -->
+<p>NOTE: As usual, any comments, addition and correction are welcome.</p>
+<p>Have fun.  <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2007-11-06-how-to-get-directory-name-of-the-page-currently-displaying/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">How to get directory name of the page currently displaying</span>
+    </a>
+    
+    
+    <a href="/posts/2007-09-30-finally-my-own-domain/" class="navigation-next">
+      <span class="navigation-tittle">Finally I Have My Own Domain</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'hugo-blog-2';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

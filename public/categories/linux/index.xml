@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/linux/</link>
+    <description>Recent content in Linux on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2020 15:42:02 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Minecraft On Linux</title>
+      <link>https://najamawans.com/posts/2020-06-08-minecraftsetup/</link>
+      <pubDate>Mon, 08 Jun 2020 15:42:02 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2020-06-08-minecraftsetup/</guid>
+      <description>I have heard about Minecraft before and never paid much attention to it until my wife told me to try it out and see if our kid take any interest in that. I took this mission and invest bit of time, if I recall correctly it took me 4 days to get the result i wanted with mods. I had to do mods to get Elephants available my Kid loves them.</description>
+    </item>
+    
+    <item>
+      <title>Back on linux with ubuntu using Virtual Box</title>
+      <link>https://najamawans.com/posts/2011-04-02-back-on-linux-with-ubuntu-using-virtual-box/</link>
+      <pubDate>Sat, 30 Apr 2011 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2011-04-02-back-on-linux-with-ubuntu-using-virtual-box/</guid>
+      <description>Well for some experiments that involved git and curl I was coming across the windows problem I was trying to make my way using cygwin but after few stuck I always get stuck. Everyone&amp;rsquo;s recommended solution was using linux OS so I have download virtual box created a virtual machine and then installed ubuntu iso 10.10 32 bit. Now as I am trying to get some softwares like chrome and vim I got few errors in package manager saying something like waiting for jockey to end.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Core6 spoofing mac address</title>
+      <link>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/</guid>
+      <description>hi
+Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.
+I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD. I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss.</description>
+    </item>
+    
+    <item>
+      <title>How to enable full multimedia capabilities on Suse 10.2</title>
+      <link>https://najamawans.com/posts/2007-03-12-how-to-enable-full-multimedia-capabilities-on-suse-102-using-the-xine-engine/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-03-12-how-to-enable-full-multimedia-capabilities-on-suse-102-using-the-xine-engine/</guid>
+      <description>NOTE: The package manager in Suse 10.2 appears to be working a lot better than the one in 10.1, so this time we will be using YAST and not SMART to install the required packages.
+The first step in resolving the multimedia issue is to setup additional YAST software sources. The software repositories used in this howto, are Packman and Guru. If possible, please use a mirror instead of the main download site to prevent overloading one download location.</description>
+    </item>
+    
+    <item>
+      <title>oh God Hd audio driver for linux</title>
+      <link>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</guid>
+      <description>hi guyz;
+Well after solving problem for my lan card through mac spoofing next problem that I want to solve now is making sound work on my acer laptop while running fedore core 6 live cd.
+Now as i inspect my hardware i get to know that i have a realtek sound card that has hd audio codec Alc 883 now.
+to check if your hardware is detected by linux or not you have to run following command in shell</description>
+    </item>
+    
+    <item>
+      <title>Realtek HD sound card working</title>
+      <link>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/</guid>
+      <description>Hi guyz
+My sound card working now after installing latest Alsa driver, Lib and Utils.
+Compile alsa-driver like this:
+1 2 3 ./configure --with-cards=hda-intel make make install and alsa-lib and alsa-util in this order like this:
+1 2 3 ./configure make make install Reboot and there you go!
+Regards Najam Sikander Awan</description>
+    </item>
+    
+    <item>
+      <title>Vychat alternative for my suse 10.2 laptop</title>
+      <link>https://najamawans.com/posts/2007-03-12-vychat-alternative-for-my-suse-102-laptop/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-03-12-vychat-alternative-for-my-suse-102-laptop/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

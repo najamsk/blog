@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/css/</link>
+    <description>Recent content in css on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Apr 2010 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Diet Plan - first step to object oriented css</title>
+      <link>https://najamawans.com/posts/2010-12-03-css-diet-plan/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-03-css-diet-plan/</guid>
+      <description>I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
+If you are a vim user and your css file is loaded into vim in command mode enter following command
+output will be the number of type font-size is used in your css file.
+for grep open your command line and enter</description>
+    </item>
+    
+    <item>
+      <title>CSS Overflow benefit</title>
+      <link>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-08-css-overflow-benefit/</guid>
+      <description>I read this article http://bit.ly/16pqBm and find out the power of overflow that is when you set it to a value it creates a new block formatting context in simple word that means non floated element’s content will not flow around the floated element instead will get narrower.
+PS. Width should not be mentioned for non floated content so it can get narrower.</description>
+    </item>
+    
+  </channel>
+</rss>

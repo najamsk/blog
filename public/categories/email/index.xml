@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/email/</link>
+    <description>Recent content in Email on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2014 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sending Emails With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</guid>
+      <description>I am managing different servers and each of them have different responsibilities.
+I am learning powershell and trying to build lego blocks that will eventually become recipes for automating tasks on different servers. One important block is email report for that if you don&amp;rsquo;t have smtp configured on server you can use following powershell script with gmail SMTP information.
+I will open source on github many of the small powershell scripts that you can make use of to build something cool.</description>
+    </item>
+    
+  </channel>
+</rss>

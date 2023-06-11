@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/news/</link>
+    <description>Recent content in news on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Apr 2011 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgraded my hosting for .net 4.0</title>
+      <link>https://najamawans.com/posts/2011-08-09-upgraded-my-hosting-for-net-4-0/</link>
+      <pubDate>Sat, 30 Apr 2011 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2011-08-09-upgraded-my-hosting-for-net-4-0/</guid>
+      <description>I have been watching Mix11 videos about asp.net mvc3 and felt pretty excited to mingle with these latest bits but I didn&amp;rsquo;t wanted to limit myself to local environment I wanted to know what efforts are required if I am developing with latest stuff one limitation I had that my host always take ages to update server so I had support for .net3.5. I email them about this thing and in reply they told me either wait 6 months or pay $8.</description>
+    </item>
+    
+    <item>
+      <title>Finally my Ms is completed</title>
+      <link>https://najamawans.com/posts/2008-07-16-finally-my-ms-is-completed/</link>
+      <pubDate>Wed, 30 Apr 2008 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2008-07-16-finally-my-ms-is-completed/</guid>
+      <description>Ummm whats new in my life?
+Well finally my Ms in telecom is completed all courses are clear and i am fleeing like a free bird. Tension free consitration on my job no more travling in triangle from home to office and then from there to university.
+Hopefully now i will get some time to write for my blog. If anyone still reading please keep reading</description>
+    </item>
+    
+    <item>
+      <title>Finally I Have My Own Domain</title>
+      <link>https://najamawans.com/posts/2007-09-30-finally-my-own-domain/</link>
+      <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-09-30-finally-my-own-domain/</guid>
+      <description>Hi guyz,
+After many days I am back and back for good :) recentlly i purchased a domain name and hosting package, so that i can have my own website and I want my settings persistent which was not possible in the case of free hosting like in my case my hosting provider remove the mysql database support.
+Can&amp;rsquo;t tell you how happy I am after getting my website up and running its currently in beta state I will design it from scratch as time permits and planning to use table less design.</description>
+    </item>
+    
+  </channel>
+</rss>

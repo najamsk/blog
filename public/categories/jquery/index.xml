@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/jquery/</link>
+    <description>Recent content in jQuery on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2013 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fetch public tweets of any user using jQuery</title>
+      <link>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</guid>
+      <description>I have been asked by many friends how to load tweets of any user using jQuery I have put some time and found two ways to do that using jQuery.
+Twitter Timeline API following is the code to get public tweets of any user using javascript and twitter timeline api
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 $.ajax({ type : &amp;#39;GET&amp;#39;, dataType : &amp;#39;jsonp&amp;#39;, url : &amp;#39;http://api.</description>
+    </item>
+    
+    <item>
+      <title>Get Running Jquery Version</title>
+      <link>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</link>
+      <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2010-12-06-get-running-jquery-version/</guid>
+      <description>Few weeks back I came across a page that has multiple jquery versions referenced in it and I had no idea which jquery version is actually running. So after little bit of googling I find following solution.
+//Returns &amp;ldquo;1.3.1&amp;rdquo; jQuery.fn.jquery;</description>
+    </item>
+    
+    <item>
+      <title>Calling asp.net page methods with jquery</title>
+      <link>https://najamawans.com/posts/2009-02-03-calling-aspnet-page-methods-with-jquery/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-calling-aspnet-page-methods-with-jquery/</guid>
+      <description>Hi guyz,
+Today I am sharing how to call asp.net web page code behind methods from client side javascript in my case it will be jquery.
+Let us divide this into two parts the server side and client side on server side we have to write a function or page method.
+1 2 3 4 5 [WebMethod] public static string AddStrings(string a, string b) { return string.Format(&amp;#34;my friend answer is {0}&amp;#34;, a + b); } Note that we mark our AddStrings function as WebMethod and its public and static this is the basic requirement for the funtion if you want to call it from javascript or jquery.</description>
+    </item>
+    
+    <item>
+      <title>Consuming asp.net webservice with jquery</title>
+      <link>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</guid>
+      <description>hi guys,
+Well I like to share one more experiment with you that is how to call a webservice from your javascript(jquery). For that again you need to have an asp.net ajax enable website.
+Lets first examine what are the requiments for webservice if we need to call it from javascript well after having asp.net ajax enable website first is you should mark your serverice as [ScriptService] what it does it will make all the methods/functions of your webservice to be accessable from javascript code and it also serialise your webservice response using JASON .</description>
+    </item>
+    
+  </channel>
+</rss>

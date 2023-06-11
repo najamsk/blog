@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.112.7">
+
+    
+    
+    
+
+<title>Fedora Core6 spoofing mac address • Najam Sikander Awan</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fedora Core6 spoofing mac address"/>
+<meta name="twitter:description" content="hi
+Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.
+I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD. I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss."/>
+
+<meta property="og:title" content="Fedora Core6 spoofing mac address" />
+<meta property="og:description" content="hi
+Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.
+I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD. I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://najamawans.com/posts/2007-02-11-testing-fedora-core6-live/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2007-04-30T22:23:21+05:00" />
+<meta property="article:modified_time" content="2007-04-30T22:23:21+05:00" />
+
+
+    
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.cc49e0e2312bae5645f26741f214c75c971aad122334531dd8911f9741e46ccf.css" integrity="sha256-zEng4jErrlZF8mdB8hTHXJcarRIjNFMd2JEfl0HkbM8=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="orange ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://najamawans.com">Najam Sikander Awan</a>
+      </span>
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Najam Sikander Awan</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/uploads/cv.pdf">
+						<span>My CV</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/najamsikander" rel="me" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/najams" rel="me" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/najamsk" rel="me" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/last_bubloo" rel="me" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/najamsikander" rel="me" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Fedora Core6 spoofing mac address</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 30, 2007
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/linux">LINUX</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/networks">NETWORKS</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/tips">TIPS</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>hi</p>
+<p>Guyz i am writing this post while using fedora core 6 live cd and it took 2 hours to make internet working on this live distro.</p>
+<p>I have acer 1642ZNWLCi with 1.7 ghz, 512 mb, and 60 gb HDD.  I have a cabel connection and my cabel operator is keepig record of my mac address and only one mac address is allowed so to run internet on all my pc i have to spoof mac addresss. If you like to spoof your mac address for fedora core 6 live follow these steps.</p>
+<ol>
+<li>
+<p>get su by typing su in shell and hit enter.</p>
+</li>
+<li>
+<p>run /sbin/ifconfig and check your ethernet details check its on enth0 or eth1 interface for my case its eth1.</p>
+</li>
+<li>
+<p>then run /sbin/ifconfig eth1 down hw ether 00:xx:xx:xx:xx:xx</p>
+</li>
+<li>
+<p>then run /sbin/ifconfig eth1 up</p>
+</li>
+<li>
+<p>finally run /sbin/ifconfig  to check if your mac address changed or not. for my case its changed.</p>
+</li>
+</ol>
+<p>now its all set up fire your browser like firefox or firefox ;) and visit any site you want like <a href="http://www.najam.wordpress.com/">http://www.najam.wordpress.com/</a></p>
+<p>Best of luck now</p>
+<p>Regards</p>
+<p>Najam Sikander Awan</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2007-09-30-finally-my-own-domain/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Finally I Have My Own Domain</span>
+    </a>
+    
+    
+    <a href="/posts/2008-07-17-sql-data-srouce-control-updating-data-from-database/" class="navigation-next">
+      <span class="navigation-tittle">Sql Data Srouce Control Updating Data From Database</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'hugo-blog-2';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

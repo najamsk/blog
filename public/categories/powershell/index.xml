@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>powershell on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/powershell/</link>
+    <description>Recent content in powershell on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Apr 2014 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archive Folders With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-archive-folders-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-archive-folders-with-powershell/</guid>
+      <description>When your web application is running on web server and you don&amp;rsquo;t have automatic backup service available form your hosting service provider taking manual backups is really a frustrating job.
+I have Pscx module installed on my PC and they have a nice little command Write-Zip available so I decided to write a custom powershell function that can create archive in zip formats for me. You can use windows task scheduler to invoke any powershell script so you can take advantage of this to have automatic daily or monthly backups.</description>
+    </item>
+    
+    <item>
+      <title>Automating Ftp Uploads With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-automating-ftp-uploads-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-automating-ftp-uploads-with-powershell/</guid>
+      <description>In my last post I have shared hwo you can archive a folder via powershell and Pscx. In my normal backup process I am used to upload zip files using ftp client like filezilla but now I am trying powershell to perform this task.
+Please feel free to test following code and let me know your thoughts and improvements.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 #upload file using ftp function FtpUpload ($file, $ftphost, $ftpuser, $ftppass) { $Dir = Split-Path $file -Parent $filename = $file.</description>
+    </item>
+    
+    <item>
+      <title>Sending Emails With Powershell</title>
+      <link>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</link>
+      <pubDate>Wed, 30 Apr 2014 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2014-10-01-sending-emails-with-powershell/</guid>
+      <description>I am managing different servers and each of them have different responsibilities.
+I am learning powershell and trying to build lego blocks that will eventually become recipes for automating tasks on different servers. One important block is email report for that if you don&amp;rsquo;t have smtp configured on server you can use following powershell script with gmail SMTP information.
+I will open source on github many of the small powershell scripts that you can make use of to build something cool.</description>
+    </item>
+    
+    <item>
+      <title>empower your outlook with powershell</title>
+      <link>https://najamawans.com/posts/2013-07-07-empower-your-outlook-with-powershell/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-07-07-empower-your-outlook-with-powershell/</guid>
+      <description>I needed to genrate an email log that contains every email from our clients these normally stored in their seprate folder. One way was to copy and paste email headers and body into a word document. Second was to use powershell and got all the emails using some script.
+After playing a little with powershell and google few of its basic I have completed my task with powershell.
+{% gist 5944505 %}</description>
+    </item>
+    
+  </channel>
+</rss>

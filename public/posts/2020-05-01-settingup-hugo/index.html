@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.112.7">
+
+    
+    
+    
+
+<title>Setting up blog with hugo &amp; vercel • Najam Sikander Awan</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Setting up blog with hugo &amp; vercel"/>
+<meta name="twitter:description" content="I am playing with Hugo trying to get a blog up and running with it. I have following TODO items in mind with my blog:
+get a clean theme get code preview maybe comments support something? deployment of theme and any custom code with Vercel formerly known as Zeit. Get Theme I end up choosing hyde-hyde due to it&rsquo;s slick clean look. After that I explore how to make sidebar links work."/>
+
+<meta property="og:title" content="Setting up blog with hugo &amp; vercel" />
+<meta property="og:description" content="I am playing with Hugo trying to get a blog up and running with it. I have following TODO items in mind with my blog:
+get a clean theme get code preview maybe comments support something? deployment of theme and any custom code with Vercel formerly known as Zeit. Get Theme I end up choosing hyde-hyde due to it&rsquo;s slick clean look. After that I explore how to make sidebar links work." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://najamawans.com/posts/2020-05-01-settingup-hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-04-30T22:23:21+05:00" />
+<meta property="article:modified_time" content="2020-04-30T22:23:21+05:00" />
+
+
+    
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.cc49e0e2312bae5645f26741f214c75c971aad122334531dd8911f9741e46ccf.css" integrity="sha256-zEng4jErrlZF8mdB8hTHXJcarRIjNFMd2JEfl0HkbM8=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="orange ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://najamawans.com">Najam Sikander Awan</a>
+      </span>
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Najam Sikander Awan</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/uploads/cv.pdf">
+						<span>My CV</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/najamsikander" rel="me" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/najams" rel="me" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/najamsk" rel="me" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/last_bubloo" rel="me" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/najamsikander" rel="me" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Setting up blog with hugo &amp; vercel</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 30, 2020
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/blog">BLOG</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/hugo">HUGO</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>I am playing with <a href="https://gohugo.io/">Hugo</a> trying to get a blog up and running with it. I have following TODO items in mind with my blog:</p>
+<ul>
+<li>get a clean theme</li>
+<li>get code preview</li>
+<li>maybe comments support something?</li>
+<li>deployment of theme and any custom code with Vercel formerly known as Zeit.</li>
+</ul>
+<h2 id="get-theme">Get Theme</h2>
+<p>I end up choosing <a href="https://themes.gohugo.io/hyde-hyde/">hyde-hyde</a> due to it&rsquo;s slick clean look. After that I explore how to make sidebar links work. Changed social media links and make those posts page work. Following links helped me to achieve that.</p>
+<ul>
+<li><a href="https://github.com/htr3n/hyde-hyde">hyde theme</a> on github.</li>
+</ul>
+<h2 id="code-snippet">Code Snippet</h2>
+<p>Hugo has builtin support for code snippet. So I change every blog post to match what Hugo needs. <a href="https://gohugo.io/content-management/syntax-highlighting/">Documentation</a> provide few styles to enable code snippet support for different languages.</p>
+<pre><code>config.toml
+</code></pre>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>    [params]
+</span></span><span style="display:flex;"><span>    highlightjs = <span style="color:#a2f;font-weight:bold">true</span>  
+</span></span><span style="display:flex;"><span>    highlightjsstyle = <span style="color:#b44">&#34;github&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="web-cms">Web CMS</h2>
+<p>I am using <!-- raw HTML omitted -->forestry.io<!-- raw HTML omitted --> to edit my posts online and each edit in turn trigger the build to generate static site and deploy it on vercel.</p>
+<h2 id="comments">Comments</h2>
+<p>Using for comment management it&rsquo;s fairly simple once you figured out what part you need to modify in config file. <a href="https://gohugo.io/content-management/comments/">Read more</a></p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2014-10-01-archive-folders-with-powershell/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Archive Folders With Powershell</span>
+    </a>
+    
+    
+    <a href="/posts/2020-06-08-minecraftsetup/" class="navigation-next">
+      <span class="navigation-tittle">Running Minecraft On Linux</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'hugo-blog-2';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

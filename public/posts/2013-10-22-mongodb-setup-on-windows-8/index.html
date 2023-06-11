@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.112.7">
+
+    
+    
+    
+
+<title>MongoDB Setup On Windows 8 • Najam Sikander Awan</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MongoDB Setup On Windows 8"/>
+<meta name="twitter:description" content="I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.
+In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&rsquo;t use it in any project until now."/>
+
+<meta property="og:title" content="MongoDB Setup On Windows 8" />
+<meta property="og:description" content="I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.
+In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&rsquo;t use it in any project until now." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://najamawans.com/posts/2013-10-22-mongodb-setup-on-windows-8/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2013-04-30T22:23:21+05:00" />
+<meta property="article:modified_time" content="2013-04-30T22:23:21+05:00" />
+
+
+    
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.cc49e0e2312bae5645f26741f214c75c971aad122334531dd8911f9741e46ccf.css" integrity="sha256-zEng4jErrlZF8mdB8hTHXJcarRIjNFMd2JEfl0HkbM8=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="orange ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://najamawans.com">Najam Sikander Awan</a>
+      </span>
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Najam Sikander Awan</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/uploads/cv.pdf">
+						<span>My CV</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/najamsikander" rel="me" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/najams" rel="me" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/najamsk" rel="me" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/last_bubloo" rel="me" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/najamsikander" rel="me" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>MongoDB Setup On Windows 8</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 30, 2013
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/database">DATABASE</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/development">DEVELOPMENT</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/mongodb">MONGODB</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/nosql">NOSQL</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/tips">TIPS</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/windows">WINDOWS</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>I am very much into learning new tools and burning hours of my life trying to figure them out. To track whats new on development horizon and technology I tend to keep my eyes on sessions, conferences, blogs and screen-casts.</p>
+<p>In past few days I wanted to explore no-sql options two in particular RavenDB and MongoDB. I have successfully completed the environment setup for raven but didn&rsquo;t use it in any project until now. On the other hand I have built a new website for my current employer using MVC4 and MongoDB. I have learned a a lot and in this blog post I will share few commands to setup mongoDB and deploy it on remote server.</p>
+<p>You can download MongoDb zip file from <a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a>. I picked 64bit version of it.</p>
+<h2 id="installing-mongodb-as-windows-service">Installing MongoDb as windows service</h2>
+<p>To install MongoDB using your command prompt navigate to the bin folder in my case it was on following path:</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>	D:\mongodb\bin&gt;</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Then run following command to install it</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>	D:\mongodb\bin&gt;mongod --dbpath=D:\mongodb --logpath=D:\mongodb\log.txt --install</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Then you can goto windows services and look for MongoDB service and simply start it. If you face any error during installation make sure you launch command prompt as administrator and log.txt file used in above command do exists in your hard drive.</p>
+<p>If for some reason you want to un-install the MongoDB service run following command in command prompt after stopping service from system services.</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>	D:\mongodb\bin&gt;mongod --remove</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>##GUI to manage MongoDB</p>
+<p>You can interact with MongoDb database and collections using command prompt it will make you master of the little quires against small frequent tasks. In my case I wanted some simple GUI to perform simple tasks and I came across <a href="http://robomongo.org/">RoboMongo</a>.</p>
+<p>Installation is simple once this tool is installed and you have your MongoDb service up and running. click on the create button showing in following screen.</p>
+<p><img src="https://lh4.googleusercontent.com/-W5SYuoYBfqE/UmZNepJZPkI/AAAAAAAACcQ/LVaMJiW2k50/w668-h410-no/roboCreate.jpg" alt="Robo Mongo Connection Screen"></p>
+<p>Proceed with defaults in address I have localhost and using port 27017. After connection is created you can click on the connect button and it will show you following screen listing with your databases and collections.</p>
+<p><img src="https://lh6.googleusercontent.com/fJjuZWRgwzWSRNwF0HzVw4bJ8JryEKLuAwWWIaKlfEY=w1183-h737-no" alt="Robo Mongo Showing Databases and Collections"></p>
+<p>##Deployment</p>
+<p>After completing v1.0 I have been asked to deploy our new web site on remote server. Asp.net deployment was not a big deal but to deploy local MongoDb database onto remote I had to read about two commands <em>mongodump</em> and <em>mongorestore</em></p>
+<p>First to create a backup file of my local mongoDB database I run following command</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>	mongodump --db DBName</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Above command will generate called DBName under MongoDB_Installation_Folder/bin/dump inside generated folder you will find <em>.bson</em> files for all the collections your database contains. I have uploaded this folder on remote server.</p>
+<p>Now to restore MongoDB on remote server I used mongorestore command syntax is simple you need to supply foldername/dbname to restore</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>	mongorestore dump/DBName</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Once restore is completed successfully you can check your database on remote using RoboMongo.</p>
+<p>I hope this will help someone starting with MongoDB thank you for reading my blog.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2013-05-03-mvc3-scafolding-commands/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">MVC3 Scaffolding Commands</span>
+    </a>
+    
+    
+    <a href="/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/" class="navigation-next">
+      <span class="navigation-tittle">fetch public tweets of any user using jQuery</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'hugo-blog-2';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

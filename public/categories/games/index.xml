@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>games on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/games/</link>
+    <description>Recent content in games on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Apr 2006 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to make custom spray for CS</title>
+      <link>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</link>
+      <pubDate>Sun, 30 Apr 2006 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2007-01-06-how-to-use-custom-spray-in-cs/</guid>
+      <description>hi
+its very easy to use custome sprays in counter strike just follow all the steps given below
+download spray file with extension wad
+then rename it to tempdecal.wad
+now i have cs 1.6
+goto Counter-Strike\cstrike and paste wad file now start game goto options select srap apply it and start playing and during play press T to spray. Bye.</description>
+    </item>
+    
+  </channel>
+</rss>

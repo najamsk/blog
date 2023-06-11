@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web services on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/web-services/</link>
+    <description>Recent content in web services on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2009 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/web-services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consuming asp.net webservice with jquery</title>
+      <link>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</link>
+      <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2009-02-03-consuming-aspnet-webservice-with-jquery/</guid>
+      <description>hi guys,
+Well I like to share one more experiment with you that is how to call a webservice from your javascript(jquery). For that again you need to have an asp.net ajax enable website.
+Lets first examine what are the requiments for webservice if we need to call it from javascript well after having asp.net ajax enable website first is you should mark your serverice as [ScriptService] what it does it will make all the methods/functions of your webservice to be accessable from javascript code and it also serialise your webservice response using JASON .</description>
+    </item>
+    
+  </channel>
+</rss>

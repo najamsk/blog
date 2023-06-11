@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.112.7">
+
+    
+    
+    
+
+<title>Realtek HD sound card working • Najam Sikander Awan</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Realtek HD sound card working"/>
+<meta name="twitter:description" content="Hi guyz
+My sound card working now after installing latest Alsa driver, Lib and Utils.
+Compile alsa-driver like this:
+1 2 3 ./configure --with-cards=hda-intel make make install and alsa-lib and alsa-util in this order like this:
+1 2 3 ./configure make make install Reboot and there you go!
+Regards Najam Sikander Awan"/>
+
+<meta property="og:title" content="Realtek HD sound card working" />
+<meta property="og:description" content="Hi guyz
+My sound card working now after installing latest Alsa driver, Lib and Utils.
+Compile alsa-driver like this:
+1 2 3 ./configure --with-cards=hda-intel make make install and alsa-lib and alsa-util in this order like this:
+1 2 3 ./configure make make install Reboot and there you go!
+Regards Najam Sikander Awan" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://najamawans.com/posts/2007-02-20-realtek-hd-sound-card-working/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2007-04-30T22:23:21+05:00" />
+<meta property="article:modified_time" content="2007-04-30T22:23:21+05:00" />
+
+
+    
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.cc49e0e2312bae5645f26741f214c75c971aad122334531dd8911f9741e46ccf.css" integrity="sha256-zEng4jErrlZF8mdB8hTHXJcarRIjNFMd2JEfl0HkbM8=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class="orange ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://najamawans.com">Najam Sikander Awan</a>
+      </span>
+      
+      
+      <p class="site__description">
+        
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Najam Sikander Awan</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/uploads/cv.pdf">
+						<span>My CV</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/najamsikander" rel="me" target="_blank"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/najams" rel="me" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/najamsk" rel="me" target="_blank"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/last_bubloo" rel="me" target="_blank"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/najamsikander" rel="me" target="_blank"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Realtek HD sound card working</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 30, 2007
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/linux">LINUX</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/tips">TIPS</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Hi guyz</p>
+<p>My sound card working now after installing latest <!-- raw HTML omitted --><!-- raw HTML omitted -->Alsa<!-- raw HTML omitted --><!-- raw HTML omitted --> driver, Lib and Utils.</p>
+<p>Compile alsa-driver like this:</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>./configure --with-cards=<span style="color:#a2f">hda-intel</span>
+</span></span><span style="display:flex;"><span>    make
+</span></span><span style="display:flex;"><span>    make install</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>and alsa-lib and alsa-util in this order like this:</p>
+<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps1" data-lang="ps1"><span style="display:flex;"><span>    ./configure
+</span></span><span style="display:flex;"><span>    make
+</span></span><span style="display:flex;"><span>    make install</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Reboot and there you go!</p>
+<p>Regards
+Najam Sikander Awan</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2007-03-01-reinstall-grub-after-installing-windows-xp/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">reinstall grub after installing windows xp</span>
+    </a>
+    
+    
+    <a href="/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/" class="navigation-next">
+      <span class="navigation-tittle">oh God Hd audio driver for linux</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'hugo-blog-2';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" integrity="sha384-b3ua1l97aVGAPEIe48b4TC60WUQbQaGi2jqAWM90y0OZXZeyaTCWtBTKtjW2GXG1" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>
