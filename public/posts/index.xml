@@ -13,9 +13,9 @@
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://najamawans.com/posts/2023-05-09-vim-usage/</guid>
-      <description>ctrl+0 and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward. If it&amp;rsquo;s not working then I found you can use ctrl+shift+i.
+      <description>ctrl+o and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward. If it&amp;rsquo;s not working then I found you can use ctrl+shift+i.
 Will keep updating this post with other vim related things that i want to track and share.
-Golang Sometimes if you install golang package using go get in terminal outside vim editor. It&amp;rsquo;s still showing import error.</description>
+Golang Import Error Sometimes if you install golang package using go get in terminal outside vim editor. It&amp;rsquo;s still showing import error.</description>
     </item>
     
     <item>

@@ -186,21 +186,21 @@ Following will looks for any places with an underscore followed by a lower case 
   <div class="post">
     <p>As I&rsquo;m working on refactoring some legacy code, I&rsquo;ve encountered the challenge of changing the variable naming convention. The current convention is not standardized, and I&rsquo;ve noticed that snake case (e.g., first_name) is commonly used. One additional constraint is to only change part of a file.</p>
 <p>Following will looks for any places with an underscore followed by a lower case letter and replaces that with an upper case letter.</p>
-<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>    <span style="">:</span><span style="color:#666">1</span>,<span style="">$</span>s<span style="">/</span>_<span style="">\(</span>[a-z]<span style="">\)/\</span>u<span style="">\</span><span style="color:#666">1</span><span style="">/</span>g</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    :1,$s/_<span style="color:#ae81ff">\(</span><span style="color:#f92672">[</span>a-z<span style="color:#f92672">]</span><span style="color:#ae81ff">\)</span>/<span style="color:#ae81ff">\u\1</span>/g</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>If you want to change case on selected lines you can use following.</p>
-<div class="highlight"><div style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>    <span style="">:</span><span style="color:#666">3</span>,<span style="color:#666">6</span>s<span style="">/</span>_<span style="">\(</span>[a-z]<span style="">\)/\</span>u<span style="">\</span><span style="color:#666">1</span><span style="">/</span>g</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    :3,6s/_<span style="color:#ae81ff">\(</span><span style="color:#f92672">[</span>a-z<span style="color:#f92672">]</span><span style="color:#ae81ff">\)</span>/<span style="color:#ae81ff">\u\1</span>/g</span></span></code></pre></td></tr></table>
 </div>
 </div>
 
