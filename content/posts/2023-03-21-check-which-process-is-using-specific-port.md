@@ -1,15 +1,14 @@
 ---
-_template: post
+title: Check which process is using specific port
+date: 2023-03-21T17:58:26.000Z
+layout: post
+comments: true
+draft: false
+categories:
+- Terminal, Dev
+
 ---
 
-+++
-categories = ["commands"]
-comments = false
-date = 2023-03-21T22:00:00Z
-layout = ""
-title = "Check which process is using specific port"
-
-+++
 This is a simple command to find out about process id binded with a port. Maybe you can kil the process.
 
 

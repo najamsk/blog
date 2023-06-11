@@ -1,15 +1,15 @@
 ---
-_template: post
+title: refactoring in vim - golang & graphql
+date: 2023-04-19T17:58:26.000Z
+layout: post
+comments: true
+draft: false
+categories:
+- Golang
+- Graphql
+- Vim
+
 ---
-
-+++
-categories = ["golang", "graphql", "vim"]
-comments = true
-date = 2023-04-19T21:00:00Z
-layout = ""
-title = "refactoring in vim - golang & graphql"
-
-+++
 Following will convert golang struct to a 99design graphql schema type.
 
 
