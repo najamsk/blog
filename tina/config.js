@@ -9,7 +9,7 @@ export default defineConfig({
   /* clientId: process.env.TINA_CLIENT_ID, // Get this from tina.io
   token: process.env.TINA_TOKEN, // Get this from tina.io */
   clientId: "bb3a329c-7a2f-4878-94be-957f3440bd69", // Get this from tina.io
-  token: "cbefcffe647f5975a5aff3dd5e9a631e89821863", // Get this from tina.io
+  token: "e4f94bdb9b5590824d23f51b24a1debe3d9d712e", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
