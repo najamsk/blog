@@ -14,9 +14,6 @@ categories:
 I have first read about <a href="http://topshelf-project.com/">topshelf</a> <a href="http://gregorsuttie.com/2012/08/20/what-i-learned-last-week-13th-august-17th-august/">Gregor's blog</a> and later fond scott hanselman recommendation about it.
 
 
-
-
-
 ```csharp {linenos=table,linenostart=1}
 public class TownCrier {
   readonly Timer _timer;
