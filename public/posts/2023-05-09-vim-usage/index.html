@@ -190,14 +190,13 @@ Golang Import Error Sometimes if you install golang package using go get in term
     <p>ctrl+o and ctrl+shit+i is the combo for going back and forth using vim jumps. Normally it should be ctrl+i or tab to jump forward. If it&rsquo;s not working then I found you can use ctrl+shift+i.</p>
 <p>Will keep updating this post with other vim related things that i want to track and share.</p>
 <h3 id="golang-import-error">Golang Import Error</h3>
-<p>Sometimes if you install golang package using go get in terminal outside vim editor. It&rsquo;s still showing import error. Until its fixed by gopls or
-whatever plugin is handling that you can just kill the goplz process.</p>
+<p>Sometimes if you install golang package using go get in terminal outside vim editor. It&rsquo;s still showing import error. Until its fixed by gopls or whatever plugin is handling that you can just kill the goplz process.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  pkill gopls</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pkill gopls</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Killing gopls will let neovim/vim to get rid of this false import erorr.</p>
@@ -208,7 +207,7 @@ whatever plugin is handling that you can just kill the goplz process.</p>
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  set wrap</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>set wrap</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="neoterm">Neoterm</h3>
@@ -218,7 +217,7 @@ whatever plugin is handling that you can just kill the goplz process.</p>
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  ctrl-<span style="color:#ae81ff">\ </span>ctrl-n</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ctrl-<span style="color:#ae81ff">\ </span>ctrl-n</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Thanks for reading.</p>
