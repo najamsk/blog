@@ -29,3 +29,11 @@
 	margin-bottom: .2rem;
 	margin-top: .2rem;
 }
+.list__title--small{
+  display:flex;
+  justify-content: space-between;
+  time {
+    min-width:100px;
+    color:#999;
+  }
+}

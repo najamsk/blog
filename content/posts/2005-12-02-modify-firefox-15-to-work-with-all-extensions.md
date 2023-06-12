@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Modify Firefox 1.5 to work with all extensions
-date: 2005-12-02 13:12
+date: 2005-12-02T22:23:21+05:00
+
 comments: true
 categories:
 - firefox
