@@ -4,8 +4,8 @@ title: CSS Diet Plan - first step to object oriented css
 date: 2010-04-30T22:23:21+05:00
 comments: true
 categories:
-- css
-- tips
+- Css
+- Tips
 ---
 
 I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
