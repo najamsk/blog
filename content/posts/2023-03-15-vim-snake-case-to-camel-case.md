@@ -1,5 +1,5 @@
 ---
-title: change snake case to camel case using VIM
+title: Change snake case to camel case using VIM
 date: 2023-03-15T17:58:26.000Z
 layout: post
 comments: true

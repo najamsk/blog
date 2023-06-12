@@ -1,5 +1,5 @@
 ---
-title: refactoring in vim - golang & graphql
+title: Refactoring in vim - golang & graphql
 date: 2023-04-19T17:58:26.000Z
 layout: post
 comments: true
