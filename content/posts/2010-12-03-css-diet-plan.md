@@ -12,12 +12,12 @@ I was wondering how to count the rules of my style sheets after little googling 
 
 If you are a vim user and your css file is loaded into vim in command mode enter following command
 <pre>:%s/font-size//gn</pre>
-output will be the number of type font-size is used in your css file.
+Output will be the number of type font-size is used in your css file.
 
-for grep open your command line and enter
+For grep open your command line and enter
 <pre>cat style.css | grep -c font-size</pre>
 output will be the count of font-size occurrences in style.css.
 
-you can use *.css as well for all the css files in current directory.
+You can use *.css as well for all the css files in current directory.
 
 Other then these methods I am really interested to use a tool which will take a file and list all the rules along with their count in code.
