@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "empower your outlook with powershell"
+title: "Empower your outlook with powershell"
 date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 

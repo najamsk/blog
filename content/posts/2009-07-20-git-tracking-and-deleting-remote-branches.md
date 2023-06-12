@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git tracking and deleting remote branches
+title: Git tracking and deleting remote branches
 date: 2009-04-30T22:23:21+05:00
 comments: true
 categories:

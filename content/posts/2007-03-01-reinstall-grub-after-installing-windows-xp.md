@@ -1,6 +1,6 @@
 ---
 layout: post
-title: reinstall grub after installing windows xp
+title: Reinstall grub after installing windows xp
 date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:

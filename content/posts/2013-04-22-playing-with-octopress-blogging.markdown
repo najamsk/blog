@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "playing with octopress blogging"
+title: "Playing with octopress blogging"
 date: 2013-04-30T22:23:21+05:00
 comments: true
 categories: 

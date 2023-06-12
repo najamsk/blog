@@ -1,6 +1,6 @@
 ---
 layout: post
-title: setting custome themes??
+title: Setting custome themes??
 date: 2005-04-30T22:23:21+05:00
 comments: true
 categories:

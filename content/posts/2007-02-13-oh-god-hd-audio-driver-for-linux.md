@@ -1,6 +1,6 @@
 ---
 layout: post
-title: oh God Hd audio driver for linux
+title: Oh God Hd audio driver for linux
 date: 2007-04-30T22:23:21+05:00
 comments: true
 categories:
