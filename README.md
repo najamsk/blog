@@ -27,4 +27,6 @@ $ now
 ```
 
 ### TODO:
-- remove tina cms thing or fix the css style in production
+- [x] remove tina cms thing or fix the css style in production
+- [ ] add serach to blog
+- [ ] add search to posts page that show list style
