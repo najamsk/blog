@@ -19,7 +19,7 @@ Golang Import Error Sometimes if you install golang package using go get in term
     </item>
     
     <item>
-      <title>refactoring in vim - golang &amp; graphql</title>
+      <title>Refactoring in vim - golang &amp; graphql</title>
       <link>https://najamawans.com/posts/2023-04-19-refactoring-in-vim-golang-graphql/</link>
       <pubDate>Wed, 19 Apr 2023 17:58:26 +0000</pubDate>
       
@@ -41,7 +41,7 @@ Golang Import Error Sometimes if you install golang package using go get in term
     </item>
     
     <item>
-      <title>change snake case to camel case using VIM</title>
+      <title>Change snake case to camel case using VIM</title>
       <link>https://najamawans.com/posts/2023-03-15-vim-snake-case-to-camel-case/</link>
       <pubDate>Wed, 15 Mar 2023 17:58:26 +0000</pubDate>
       
@@ -138,7 +138,7 @@ I will open source on github many of the small powershell scripts that you can m
     </item>
     
     <item>
-      <title>empower your outlook with powershell</title>
+      <title>Empower your outlook with powershell</title>
       <link>https://najamawans.com/posts/2013-07-07-empower-your-outlook-with-powershell/</link>
       <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
       
@@ -149,7 +149,7 @@ After playing a little with powershell and google few of its basic I have comple
     </item>
     
     <item>
-      <title>fetch public tweets of any user using jQuery</title>
+      <title>Fetch public tweets of any user using jQuery</title>
       <link>https://najamawans.com/posts/2013-05-03-fetch-public-tweets-of-any-user-using-jquery/</link>
       <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
       
@@ -180,7 +180,7 @@ In past few days I wanted to explore no-sql options two in particular RavenDB an
     </item>
     
     <item>
-      <title>playing with octopress blogging</title>
+      <title>Playing with octopress blogging</title>
       <link>https://najamawans.com/posts/2013-04-22-playing-with-octopress-blogging/</link>
       <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
       
@@ -197,6 +197,16 @@ But today I suddenly started to play with it and I liked few things I learn alon
       <guid>https://najamawans.com/posts/2013-05-03-testing-jquery-code-via-yui-test/</guid>
       <description>The term TDD is not new to me I heard it quite often but never took time to go into details until last few days. I have been checking stuff from YUI team and liked their YUI test framework for now ,but in future i might switch to qUint (jquery testing framework) as I am big fan of jQuery and using it daily.
 There are different version of YUI like 2.</description>
+    </item>
+    
+    <item>
+      <title>Writing .Net Windows Service Made Easy Using Topshelf</title>
+      <link>https://najamawans.com/posts/2013-04-21-topshelf-windows-service/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-04-21-topshelf-windows-service/</guid>
+      <description>I have first read about topshelf Gregor&amp;rsquo;s blog and later fond scott hanselman recommendation about it.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 public class TownCrier { readonly Timer _timer; public TownCrier() { _timer = new Timer(1000) { AutoReset = true }; _timer.Elapsed += (sender, eventArgs) =&amp;gt; Console.</description>
     </item>
     
     <item>
@@ -219,10 +229,10 @@ There are different version of YUI like 2.</description>
     
     <item>
       <title>C# Parent Child Reference Variable &amp;amp; Object Casting</title>
-      <link>https://najamawans.com/posts/2010-01-25-221/</link>
+      <link>https://najamawans.com/posts/2010-01-25-221-parent-child-reference/</link>
       <pubDate>Fri, 30 Apr 2010 22:23:21 +0500</pubDate>
       
-      <guid>https://najamawans.com/posts/2010-01-25-221/</guid>
+      <guid>https://najamawans.com/posts/2010-01-25-221-parent-child-reference/</guid>
       <description>I have been clearing my concepts regarding inheritance and investigating if parent reference variable can point to child class object and vice versa.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 using System; using System.</description>
     </item>
@@ -235,8 +245,8 @@ There are different version of YUI like 2.</description>
       <guid>https://najamawans.com/posts/2010-12-03-css-diet-plan/</guid>
       <description>I was wondering how to count the rules of my style sheets after little googling i discovered two ways one is through vim and second is through a command line tool called grep.
 If you are a vim user and your css file is loaded into vim in command mode enter following command
-output will be the number of type font-size is used in your css file.
-for grep open your command line and enter</description>
+Output will be the number of type font-size is used in your css file.
+For grep open your command line and enter</description>
     </item>
     
     <item>
@@ -348,7 +358,7 @@ I will keep posting about this learning adventure of mine.</description>
     </item>
     
     <item>
-      <title>git tracking and deleting remote branches</title>
+      <title>Git tracking and deleting remote branches</title>
       <link>https://najamawans.com/posts/2009-07-20-git-tracking-and-deleting-remote-branches/</link>
       <pubDate>Thu, 30 Apr 2009 22:23:21 +0500</pubDate>
       
@@ -512,7 +522,7 @@ Najam Sikander Awan</description>
     </item>
     
     <item>
-      <title>oh God Hd audio driver for linux</title>
+      <title>Oh God Hd audio driver for linux</title>
       <link>https://najamawans.com/posts/2007-02-13-oh-god-hd-audio-driver-for-linux/</link>
       <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
       
@@ -538,7 +548,7 @@ Regards Najam Sikander Awan</description>
     </item>
     
     <item>
-      <title>reinstall grub after installing windows xp</title>
+      <title>Reinstall grub after installing windows xp</title>
       <link>https://najamawans.com/posts/2007-03-01-reinstall-grub-after-installing-windows-xp/</link>
       <pubDate>Mon, 30 Apr 2007 22:23:21 +0500</pubDate>
       
@@ -579,15 +589,12 @@ My walllop invites available</description>
     </item>
     
     <item>
-      <title>setting custome themes??</title>
-      <link>https://najamawans.com/posts/2005-11-21-setting-custome-themes/</link>
-      <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
+      <title>Modify Firefox 1.5 to work with all extensions</title>
+      <link>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</link>
+      <pubDate>Fri, 02 Dec 2005 22:23:21 +0500</pubDate>
       
-      <guid>https://najamawans.com/posts/2005-11-21-setting-custome-themes/</guid>
-      <description>hi
-i am using wordpress.com very first time i dont know how to set custom themes (http://managedtasks.com/wpthemes/blog/index.php?wptheme=narnia) from my panel i donwloaded a theme from wordpress which can be found at http://managedtasks.com/wpthemes/blog/index.php?wptheme=narnia can anyone please help me how to set this theme for my blog
-thanks
-najam sikander</description>
+      <guid>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</guid>
+      <description> </description>
     </item>
     
     <item>
@@ -605,15 +612,6 @@ najam sikander</description>
       <pubDate>Sat, 30 Apr 2005 22:23:21 +0500</pubDate>
       
       <guid>https://najamawans.com/posts/2005-12-01-speed-up-firfox/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Modify Firefox 1.5 to work with all extensions</title>
-      <link>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://najamawans.com/posts/2005-12-02-modify-firefox-15-to-work-with-all-extensions/</guid>
       <description> </description>
     </item>
     

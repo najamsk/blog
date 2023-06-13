@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>topshef on Najam Sikander Awan</title>
+    <link>https://najamawans.com/categories/topshef/</link>
+    <description>Recent content in topshef on Najam Sikander Awan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2013 22:23:21 +0500</lastBuildDate><atom:link href="https://najamawans.com/categories/topshef/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing .Net Windows Service Made Easy Using Topshelf</title>
+      <link>https://najamawans.com/posts/2013-04-21-topshelf-windows-service/</link>
+      <pubDate>Tue, 30 Apr 2013 22:23:21 +0500</pubDate>
+      
+      <guid>https://najamawans.com/posts/2013-04-21-topshelf-windows-service/</guid>
+      <description>I have first read about topshelf Gregor&amp;rsquo;s blog and later fond scott hanselman recommendation about it.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 public class TownCrier { readonly Timer _timer; public TownCrier() { _timer = new Timer(1000) { AutoReset = true }; _timer.Elapsed += (sender, eventArgs) =&amp;gt; Console.</description>
+    </item>
+    
+  </channel>
+</rss>
