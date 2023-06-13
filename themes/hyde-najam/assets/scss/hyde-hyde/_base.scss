@@ -139,7 +139,8 @@ a {
 	padding-top: 2rem;
 }
 
-
+//only in production code sinppet was failing with background
+//maybe because of vercel version of hugo generating different markup and css
 .highlight tbody tr:nth-child(odd) td, .highlight tbody tr:nth-child(odd) th {
   background-color:#272822;
 }
