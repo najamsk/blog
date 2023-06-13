@@ -138,3 +138,8 @@ a {
 	padding-bottom: 2rem;
 	padding-top: 2rem;
 }
+
+
+.highlight tbody tr:nth-child(odd) td, .highlight tbody tr:nth-child(odd) th {
+  background-color:none;
+}
